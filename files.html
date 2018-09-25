@@ -1,0 +1,1407 @@
+<!DOCTYPE HTML>
+<!-- saved from url=(0108)https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&themeId=1492&templateConfId=114 -->
+<html lang="en" id="rem-8847"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>秒杀活动</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<script type="text/javascript" defer="" async="" src="index_files/uaest.js"></script><script type="text/javascript" src="index_files/layout-5a11de4e51.js"></script><style type="text/css">#rem-8847{font-size:48px !important}</style>
+	<link rel="stylesheet" href="index_files/css-242ccb2375.css">
+	<link rel="stylesheet" href="index_files/reset-5d42b3b41b.css">
+	<!-- 刘亚 -- 动效和音乐的样式 -->
+	<link rel="stylesheet" href="index_files/_style-c4805f0524.css">
+	<!-- ******************************************** -->
+	<link rel="stylesheet" href="index_files/layer-aa4044c0f3.css">
+	<link rel="stylesheet" href="index_files/LCalendar-1b7da8cc7c.css">
+	<link rel="stylesheet" href="index_files/animate-d92b470b94.min.css">
+	<link rel="stylesheet" href="index_files/pc_time-9a5e0f471d.css">
+	<!-- 优惠券样式文件 -->
+	<link rel="stylesheet" href="index_files/coupon-13fb609f63.css">
+	<style type="text/css">
+		.time {
+			height: .9rem !important;
+		}
+		.bm_list_info {
+		   text-align: center;
+		    
+		}
+		.bm_list_info>li {
+		    display: flex;
+			-webkit-flex: flex;
+			justify-content: space-between;
+			-webkit-justify-content: space-between;
+		}
+		.bm_list_info>li>input {
+		    float: none;
+		    border: 1px dashed #F9292A;
+		    border-radius: 3px;
+		    width: auto;
+		    height: .5rem;
+		    line-height: .5rem;
+		    background: transparent;
+		    font-size: .28rem;
+		    color: #313131;
+		    text-align: center;
+		   
+		}
+		.bm_lock_checked {
+		    float: left;
+		    width: .4rem;
+		    height: .4rem;
+		    margin-left: 1.1rem;
+		    border-radius: 50%;
+		    border: 1px solid #979797;
+		    background: url(index_files/red_ck-9c10339c50.png) no-repeat !important;
+		    background-size: 100% 100%!important;
+
+		    
+		}
+		.bm_lock {
+		    
+		    margin-left:1rem;
+		    
+		}
+	   .textMark-add_wrap>li {
+	   	width: initial;
+	   }
+		
+		@media only screen and (min-width: 100px) and (max-width:375px) {
+			.time {
+				height: 1.1rem !important;
+			}
+			
+		}
+		@media screen and (max-width:765px){
+			.ms_xs_input{
+		  		width:1.3rem;
+		      }
+		    .ms_content_xs_chose>ul>li{
+		      	width: 4.5rem;
+		    }
+		    #ms_ul{
+		    	width: 4rem;
+		    }
+		    .jl_content_add_lis>li>input{
+		    	width: 0.7rem;
+		    }
+		    .jl_content_add_lis>li{
+		    	width: 6rem;
+		    }
+		    .ms_content{
+		    	margin-top: 0.4rem;
+		    }
+		    .ms_content_textarea {
+			    
+			    width: 93%;
+			    transform: translateY(3px);
+			 
+			}
+		
+			
+			
+			
+		}
+		
+		
+		
+	</style>
+<link href="index_files/layer-aa4044c0f3.css" type="text/css" rel="styleSheet" id="layermcss">
+<style type="text/css">
+	.picker{display:none;position:fixed;top:0;z-index:100;width:100%;height:100%;overflow:hidden;text-align:center;font-family:PingFang SC,STHeitiSC-Light,Helvetica-Light,arial,sans-serif;font-size:14px;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}.picker .picker-mask{position:absolute;z-index:500;width:100%;height:100%;transition:all .5s;-webkit-transition:all .5s;background:transparent;opacity:0}.picker .picker-mask.show{background:rgba(0,0,0,.6);opacity:1}.picker .picker-panel{position:absolute;z-index:600;bottom:0;width:100%;height:243px;background:#fff;transform:translateY(243px);-webkit-transform:translateY(243px);transition:all .5s;-webkit-transition:all .5s}.picker .picker-panel.show{transform:translateY(0);-webkit-transform:translateY(0)}.picker .picker-panel .picker-choose{position:relative;height:50px;color:#878787;font-size:14px}.picker .picker-panel .picker-choose .picker-title{line-height:50px;font-size:19px;text-align:center;color:#333}.picker .picker-panel .picker-choose .cancel,.picker .picker-panel .picker-choose .confirm{position:absolute;padding:10px;top:6px}.picker .picker-panel .picker-choose .confirm{right:0;color:#fa8919}.picker .picker-panel .picker-choose .cancel{left:0}.picker .picker-panel .picker-content{position:relative}.picker .picker-panel .picker-content .mask-bottom,.picker .picker-panel .picker-content .mask-top{position:absolute;z-index:10;width:100%;height:68px;pointer-events:none;transform:translateZ(0);-webkit-transform:translateZ(0)}.picker .picker-panel .picker-content .mask-top{top:0;background:-webkit-gradient(linear,left bottom,left top,from(hsla(0,0%,100%,.4)),to(hsla(0,0%,100%,.8)));background:-o-linear-gradient(bottom,hsla(0,0%,100%,.4),hsla(0,0%,100%,.8))}.picker .picker-panel .picker-content .mask-top:after,.picker .picker-panel .picker-content .mask-top:before{display:block;position:absolute;border-top:1px solid #ccc;left:0;width:100%;content:" "}.picker .picker-panel .picker-content .mask-top:before{display:none;top:0}.picker .picker-panel .picker-content .mask-top:after{display:block;bottom:0}.picker .picker-panel .picker-content .mask-bottom{bottom:0;background:-webkit-gradient(linear,left top,left bottom,from(hsla(0,0%,100%,.4)),to(hsla(0,0%,100%,.8)));background:-o-linear-gradient(top,hsla(0,0%,100%,.4),hsla(0,0%,100%,.8))}.picker .picker-panel .picker-content .mask-bottom:after,.picker .picker-panel .picker-content .mask-bottom:before{display:block;position:absolute;border-top:1px solid #ccc;left:0;width:100%;content:" "}.picker .picker-panel .picker-content .mask-bottom:before{display:block;top:0}.picker .picker-panel .picker-content .mask-bottom:after{display:none;bottom:0}.picker .picker-panel .wheel-wrapper{display:-ms-flexbox;display:-webkit-box;display:flex;padding:0 10px}.picker .picker-panel .wheel-wrapper .wheel{-ms-flex:1 1 1e-9px;-webkit-box-flex:1;flex:1;flex-basis:1e-9px;width:1%;height:173px;overflow:hidden;font-size:21px}.picker .picker-panel .wheel-wrapper .wheel .wheel-scroll{margin-top:68px;line-height:36px}.picker .picker-panel .wheel-wrapper .wheel .wheel-scroll .wheel-item{height:36px;overflow:hidden;white-space:nowrap;color:#333}.picker .picker-footer{height:20px}@media (-webkit-min-device-pixel-ratio:1.5),(min-device-pixel-ratio:1.5){.border-1px:after,.border-1px:before{-webkit-transform:scaleY(.7);-webkit-transform-origin:0 0;transform:scaleY(.7)}.border-1px:after{-webkit-transform-origin:left bottom}}@media (-webkit-min-device-pixel-ratio:2),(min-device-pixel-ratio:2){.border-1px:after,.border-1px:before{-webkit-transform:scaleY(.5);transform:scaleY(.5)}}</style><style>@font-face{font-family:uc-nexus-iconfont;src:url(chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.woff) format('woff'),url(chrome-extension://pogijhnlcfmcppgimcaccdkmbedjkmhi/res/font_9qmmi8b8jsxxbt9.ttf) format('truetype')}</style></head>
+<body id="leafContainer" style="background-image: url(&quot;https://oss.laidiannet.com/theme/dianQBack.png&quot;); background-size: 100%; background-repeat: repeat; overflow-y: auto;">
+	<div class="loading" style="display: none;">
+		<div class="loader"></div>
+	</div>
+	<div class="loadings" style="display: none !important;">
+		<div class="loader"></div>
+	</div>
+	<input type="hidden" id="aly_url" value="https://oss.laidiannet.com/">
+	<input type="hidden" id="aly_ossAccessKeyId" value="LTAIWBZWhzffUTU7">
+	<input type="hidden" id="aly_policy" value="eyJleHBpcmF0aW9uIjoiMjAxOC0wOS0xN1QwNDo1MzoxM1oiLCJjb25kaXRpb25zIjpbWyJjb250ZW50LWxlbmd0aC1yYW5nZSIsIDAsIDUwNDg1NzZdXX0=">
+	<input type="hidden" id="aly_signature" value="A25e9ZMiC8GZn8McYILyox8bfZM=">
+	<input type="hidden" id="aly_key" value="bargain/2018/9/17/">
+	<input type="hidden" id="themeId" value="1492">
+	<img src="index_files/dianQSmallTitle.png" style="display: none;" id="new_img">
+	<div class="banner">
+		<img src="https://oss.laidiannet.com/theme/2018/8/9/1533785970152.jpg" id="active_kj_banner" style="position: relative;">
+		<span>图片建议尺寸:750*600</span>
+		<ul class="banner_mb">
+			<li id="change_mb">
+				<i class="banner_mb_i"></i>
+				<span>更换模板</span>
+			</li>
+			<li id="change_img">
+				<i class="banner_pic_i"></i>
+				<span>更换图片</span>
+			</li>
+		</ul>
+		<!--更换模板弹窗-->
+		<div class="banner_mb_tab">
+			<div class="banner_mb_tab_clk" data="" data-typeid="44">
+				确认
+			</div>
+			<div class="banner_mb_tab_qx" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2018/8/9/1533785970152.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/8/9/1533785972462.jpg&quot;,&quot;themeTypeId&quot;:44,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/8/9/1533785975004.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;0&quot;,&quot;border_size&quot;:&quot;0&quot;,&quot;shadow_color&quot;:&quot;0&quot;,&quot;shadow_width&quot;:&quot;0&quot;,&quot;round&quot;:&quot;10px&quot;,&quot;padding_color&quot;:&quot;#ffffff&quot;,&quot;boxShadow&quot;:&quot;0px 0px 4px 0px #9716FF inset&quot;},&quot;qrBigColor&quot;:&quot;#ffbf00&quot;,&quot;qrSmallColor&quot;:&quot;#ff542a&quot;,&quot;timeTitleColor&quot;:&quot;#1B1B1B &quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;https://oss.laidiannet.com/theme/dianQTime.png&quot;,&quot;timePicLong&quot;:&quot;712&quot;,&quot;timePicWide&quot;:&quot;104&quot;,&quot;titleColor&quot;:&quot;#1B1B1B&quot;,&quot;titleFontSize&quot;:&quot;.4rem&quot;,&quot;smallTitleColor&quot;:&quot;#FFFFFF&quot;,&quot;smallTitleFontSize&quot;:&quot;.32rem&quot;,&quot;smallTitlePic&quot;:&quot;https://oss.laidiannet.com/theme/dianQSmallTitle.png&quot;,&quot;titleVerticalAlign&quot;:&quot;top&quot;,&quot;signUpPic&quot;:&quot;https://oss.laidiannet.com/theme/dianQSignUp.png&quot;,&quot;backimg&quot;:&quot;https://oss.laidiannet.com/theme/dianQBack.png&quot;,&quot;speedProgress&quot;:&quot;https://oss.laidiannet.com/theme/dianQSP.gif&quot;,&quot;speedProgressBack&quot;:&quot;https://oss.laidiannet.com/theme/dianQSPBack.png&quot;,&quot;imgIcon&quot;:[&quot;&quot;,&quot;&quot;,&quot;https://oss.laidiannet.com/theme/dianQIcon.png&quot;,&quot;&quot;]},&quot;themeId&quot;:1492,&quot;themeType&quot;:&quot;店庆&quot;,&quot;backColor&quot;:&quot;&quot;}">
+				取消
+			</div>
+			<div class="banner_mb_tab_div">
+				<ul style="pointer-events: auto; transition-property: transform; transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px); width: 55.04rem;">
+				<li data-index="1196" data-type="3" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2018/4/24/1524564602611.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/4/24/1524564607147.jpg&quot;,&quot;themeTypeId&quot;:3,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/4/24/1524564612431.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;#004CFF&quot;,&quot;border_size&quot;:&quot;0px&quot;,&quot;shadow_color&quot;:&quot;&quot;,&quot;shadow_width&quot;:&quot;&quot;,&quot;round&quot;:&quot;8px&quot;,&quot;padding_color&quot;:&quot;#E6E9ED&quot;,&quot;boxShadow&quot;:&quot;0px 0px 4px 0px #004CFF inset&quot;},&quot;qrBigColor&quot;:&quot;#0067ae&quot;,&quot;qrSmallColor&quot;:&quot;#023398&quot;,&quot;timeTitleColor&quot;:&quot;#ffffff&quot;,&quot;inputBoxColor&quot;:&quot;#F9292A&quot;,&quot;timePic&quot;:&quot;https://oss.laidiannet.com/theme/shangwuTimePicx.png&quot;,&quot;timePicLong&quot;:&quot;698&quot;,&quot;timePicWide&quot;:&quot;60&quot;,&quot;titleColor&quot;:&quot;#00F1FF&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#00F1FF&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;https://oss.laidiannet.com/theme/shangwux.png&quot;,&quot;signUpPic&quot;:&quot;https://oss.laidiannet.com/theme/shangwuSignUpPicx.png&quot;},&quot;themeId&quot;:1196,&quot;themeType&quot;:&quot;商务&quot;,&quot;backColor&quot;:&quot;#022151&quot;}"><img src="index_files/1524564602611.jpg"><span>商务</span></li><li data-index="1509" data-type="9" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2018/8/23/1535004289927.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/8/23/1535004294627.jpg&quot;,&quot;themeTypeId&quot;:9,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/8/23/1535004298663.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;0&quot;,&quot;border_size&quot;:&quot;0&quot;,&quot;shadow_color&quot;:&quot;0&quot;,&quot;shadow_width&quot;:&quot;0&quot;,&quot;round&quot;:&quot;10px&quot;,&quot;padding_color&quot;:&quot;#ffffff&quot;},&quot;qrBigColor&quot;:&quot;#f16c6c&quot;,&quot;qrSmallColor&quot;:&quot;#e21414&quot;,&quot;timeTitleColor&quot;:&quot;#4b201a &quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;https://oss.laidiannet.com/theme/guoQinJTime.png&quot;,&quot;timePicLong&quot;:&quot;721&quot;,&quot;timePicWide&quot;:&quot;128&quot;,&quot;titleColor&quot;:&quot;#4b201a&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#4b201a&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;https://oss.laidiannet.com/theme/guoQinJSmallTitle.png&quot;,&quot;titleVerticalAlign&quot;:&quot;top&quot;,&quot;signUpPic&quot;:&quot;https://oss.laidiannet.com/theme/guoQinJSignUp.png&quot;,&quot;backimg&quot;:&quot;https://oss.laidiannet.com/theme/guoQinJBack.png&quot;,&quot;speedProgress&quot;:&quot;https://oss.laidiannet.com/theme/guoQinJSp.gif&quot;,&quot;speedProgressBack&quot;:&quot;https://oss.laidiannet.com/theme/guoQinJSpBack.png&quot;,&quot;imgIcon&quot;:[&quot;&quot;,&quot;&quot;,&quot;https://oss.laidiannet.com/theme/guoQinJIcon.png&quot;,&quot;&quot;]},&quot;themeId&quot;:1509,&quot;themeType&quot;:&quot;节日&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1535004289927.jpg"><span>节日</span></li><li data-index="1485" data-type="9" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2018/8/9/1533783819621.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/8/9/1533783824062.jpg&quot;,&quot;themeTypeId&quot;:9,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/8/9/1533783827879.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;0&quot;,&quot;border_size&quot;:&quot;0&quot;,&quot;shadow_color&quot;:&quot;0&quot;,&quot;shadow_width&quot;:&quot;0&quot;,&quot;round&quot;:&quot;8px&quot;,&quot;padding_color&quot;:&quot;#ffffff&quot;,&quot;boxShadow&quot;:&quot;0px 0px 10px 0px #786e5e outset&quot;},&quot;qrBigColor&quot;:&quot;#69808f&quot;,&quot;qrSmallColor&quot;:&quot;#1b303e&quot;,&quot;timeTitleColor&quot;:&quot;#243a47&quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;https://oss.laidiannet.com/theme/jiaoSJTime.png&quot;,&quot;timePicLong&quot;:&quot;723&quot;,&quot;timePicWide&quot;:&quot;117&quot;,&quot;titleColor&quot;:&quot;#1a303e&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#413f38&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;https://oss.laidiannet.com/theme/jiaoSJSmallTitle.png&quot;,&quot;titleVerticalAlign&quot;:&quot;top&quot;,&quot;signUpPic&quot;:&quot;https://oss.laidiannet.com/theme/jiaoSJSignUp.png&quot;,&quot;backimg&quot;:&quot;https://oss.laidiannet.com/theme/jiaoSJBack.jpg&quot;,&quot;speedProgress&quot;:&quot;https://oss.laidiannet.com/theme/jiaoSJSP.gif&quot;,&quot;speedProgressBack&quot;:&quot;https://oss.laidiannet.com/theme/jiaoSJSPBack.png&quot;,&quot;imgIcon&quot;:[&quot;&quot;,&quot;&quot;,&quot;https://oss.laidiannet.com/theme/jiaoSJIcon.png&quot;,&quot;&quot;]},&quot;themeId&quot;:1485,&quot;themeType&quot;:&quot;节日&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1533783819621.jpg"><span>节日</span></li><li data-index="1448" data-type="42" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2018/7/16/1531730425979.png&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/7/16/1531730432688.png&quot;,&quot;themeTypeId&quot;:42,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/7/10/1531194208258.png&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;0&quot;,&quot;border_size&quot;:&quot;0&quot;,&quot;shadow_color&quot;:&quot;0&quot;,&quot;shadow_width&quot;:&quot;0&quot;,&quot;round&quot;:&quot;8px&quot;,&quot;padding_color&quot;:&quot;#ffffff&quot;,&quot;boxShadow&quot;:&quot;0px 0px 10px 0px #f97b15 outset&quot;},&quot;qrBigColor&quot;:&quot;#f6621b&quot;,&quot;qrSmallColor&quot;:&quot;#fc4e33&quot;,&quot;timeTitleColor&quot;:&quot;#ffffff&quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;https://oss.laidiannet.com/theme/huoLiCTime.png&quot;,&quot;timePicLong&quot;:&quot;704&quot;,&quot;timePicWide&quot;:&quot;107&quot;,&quot;titleColor&quot;:&quot;#a04e0a&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#ffffff&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;https://oss.laidiannet.com/theme/huoLiCSmallTitle2.png&quot;,&quot;titleVerticalAlign&quot;:&quot;top&quot;,&quot;signUpPic&quot;:&quot;https://oss.laidiannet.com/theme/huoLiCsignUp2.png&quot;,&quot;backimg&quot;:&quot;https://oss.laidiannet.com/theme/huoLiCBack.jpg&quot;,&quot;speedProgress&quot;:&quot;https://oss.laidiannet.com/theme/huoLiCSp2.gif&quot;,&quot;speedProgressBack&quot;:&quot;https://oss.laidiannet.com/theme/huoLiCSpBack.png&quot;},&quot;themeId&quot;:1448,&quot;themeType&quot;:&quot;活力橙&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1531730425979.png"><span>活力橙</span></li><li data-index="1447" data-type="41" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2018/7/10/1531194170271.png&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/7/10/1531194174782.png&quot;,&quot;themeTypeId&quot;:41,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/7/10/1531194179055.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;0&quot;,&quot;border_size&quot;:&quot;0&quot;,&quot;shadow_color&quot;:&quot;0&quot;,&quot;shadow_width&quot;:&quot;0&quot;,&quot;round&quot;:&quot;8px&quot;,&quot;padding_color&quot;:&quot;#ffffff&quot;,&quot;boxShadow&quot;:&quot;0px 0px 10px 0px #72b70d outset&quot;},&quot;qrBigColor&quot;:&quot;#6ec4fa&quot;,&quot;qrSmallColor&quot;:&quot;#8cc8fa&quot;,&quot;timeTitleColor&quot;:&quot;#b2501e&quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;https://oss.laidiannet.com/theme/caoYuanTime.png&quot;,&quot;timePicLong&quot;:&quot;695&quot;,&quot;timePicWide&quot;:&quot;62&quot;,&quot;titleColor&quot;:&quot;#ffffff&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#ffffff&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;https://oss.laidiannet.com/theme/caoYuanSmallTItle.png&quot;,&quot;titleVerticalAlign&quot;:&quot;middle&quot;,&quot;signUpPic&quot;:&quot;https://oss.laidiannet.com/theme/caoYuanSignUp2.png&quot;,&quot;backimg&quot;:&quot;https://oss.laidiannet.com/theme/caoYuanBack.png&quot;,&quot;speedProgress&quot;:&quot;https://oss.laidiannet.com/theme/caoYuanSp.gif&quot;,&quot;speedProgressBack&quot;:&quot;https://oss.laidiannet.com/theme/caoYuanSpBack.png&quot;},&quot;themeId&quot;:1447,&quot;themeType&quot;:&quot;草原&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1531194170271.png"><span>草原</span></li><li data-index="1501" data-type="9" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2018/8/23/1535003965129.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/8/23/1535003968933.jpg&quot;,&quot;themeTypeId&quot;:9,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/8/23/1535003974524.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;0&quot;,&quot;border_size&quot;:&quot;0&quot;,&quot;shadow_color&quot;:&quot;0&quot;,&quot;shadow_width&quot;:&quot;0&quot;,&quot;round&quot;:&quot;10px&quot;,&quot;padding_color&quot;:&quot;#ffffff&quot;},&quot;qrBigColor&quot;:&quot;#fec336&quot;,&quot;qrSmallColor&quot;:&quot;#ff8a00&quot;,&quot;timeTitleColor&quot;:&quot;#fefefe &quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;https://oss.laidiannet.com/theme/zhongQiuJTime.png&quot;,&quot;timePicLong&quot;:&quot;736&quot;,&quot;timePicWide&quot;:&quot;74&quot;,&quot;titleColor&quot;:&quot;#fec233&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#413f38&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;https://oss.laidiannet.com/theme/zhongQiuJSmallTitle.png&quot;,&quot;titleVerticalAlign&quot;:&quot;bottom&quot;,&quot;signUpPic&quot;:&quot;https://oss.laidiannet.com/theme/zhongQiuJSignUp.png&quot;,&quot;backimg&quot;:&quot;https://oss.laidiannet.com/theme/zhongQiuJBack.png&quot;,&quot;speedProgress&quot;:&quot;https://oss.laidiannet.com/theme/zhongQiuJSp.gif&quot;,&quot;speedProgressBack&quot;:&quot;https://oss.laidiannet.com/theme/zhongQiuJSPBack.png&quot;,&quot;imgIcon&quot;:[&quot;&quot;,&quot;&quot;,&quot;https://oss.laidiannet.com/theme/zhongQiuJIcon.png&quot;,&quot;&quot;]},&quot;themeId&quot;:1501,&quot;themeType&quot;:&quot;节日&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1535003965129.jpg"><span>节日</span></li><li data-index="1197" data-type="7" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2017/12/5/1512442160676.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://ldb-oss.oss-cn-shanghai.aliyuncs.com/theme/2017/12/5/1512442164417.jpg&quot;,&quot;themeTypeId&quot;:7,&quot;flatImage&quot;:&quot;https://ldb-oss.oss-cn-shanghai.aliyuncs.com/theme/2017/12/5/1512453032196.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;#2763E3&quot;,&quot;border_size&quot;:&quot;2px&quot;,&quot;shadow_color&quot;:&quot;#C385F4&quot;,&quot;shadow_width&quot;:&quot;4&quot;,&quot;round&quot;:&quot;5px&quot;,&quot;padding_color&quot;:&quot;#EBF1FF&quot;},&quot;qrBigColor&quot;:&quot;#EF96F6&quot;,&quot;qrSmallColor&quot;:&quot;#9C59C7&quot;,&quot;timeTitleColor&quot;:&quot;#FFFFFF&quot;,&quot;inputBoxColor&quot;:&quot;#F9292A&quot;,&quot;timePic&quot;:&quot;http://oss.laidiannet.com/theme/jielongtimepic.png&quot;,&quot;timePicLong&quot;:&quot;698&quot;,&quot;timePicWide&quot;:&quot;104&quot;,&quot;titleColor&quot;:&quot;#FFFFFF&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#2BD3B3&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;http://oss.laidiannet.com/theme/jielongSmallTitlePic.png&quot;,&quot;backimg&quot;:&quot;http://oss.laidiannet.com/theme/jieLongBackPic.jpg&quot;},&quot;themeId&quot;:1197,&quot;themeType&quot;:&quot;魅惑&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1512442160676.jpg"><span>魅惑</span></li><li data-index="1492" data-type="44" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2018/8/9/1533785970152.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/8/9/1533785972462.jpg&quot;,&quot;themeTypeId&quot;:44,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/8/9/1533785975004.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;0&quot;,&quot;border_size&quot;:&quot;0&quot;,&quot;shadow_color&quot;:&quot;0&quot;,&quot;shadow_width&quot;:&quot;0&quot;,&quot;round&quot;:&quot;10px&quot;,&quot;padding_color&quot;:&quot;#ffffff&quot;,&quot;boxShadow&quot;:&quot;0px 0px 4px 0px #9716FF inset&quot;},&quot;qrBigColor&quot;:&quot;#ffbf00&quot;,&quot;qrSmallColor&quot;:&quot;#ff542a&quot;,&quot;timeTitleColor&quot;:&quot;#1B1B1B &quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;https://oss.laidiannet.com/theme/dianQTime.png&quot;,&quot;timePicLong&quot;:&quot;712&quot;,&quot;timePicWide&quot;:&quot;104&quot;,&quot;titleColor&quot;:&quot;#1B1B1B&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#FFFFFF&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;https://oss.laidiannet.com/theme/dianQSmallTitle.png&quot;,&quot;titleVerticalAlign&quot;:&quot;top&quot;,&quot;signUpPic&quot;:&quot;https://oss.laidiannet.com/theme/dianQSignUp.png&quot;,&quot;backimg&quot;:&quot;https://oss.laidiannet.com/theme/dianQBack.png&quot;,&quot;speedProgress&quot;:&quot;https://oss.laidiannet.com/theme/dianQSP.gif&quot;,&quot;speedProgressBack&quot;:&quot;https://oss.laidiannet.com/theme/dianQSPBack.png&quot;,&quot;imgIcon&quot;:[&quot;&quot;,&quot;&quot;,&quot;https://oss.laidiannet.com/theme/dianQIcon.png&quot;,&quot;&quot;]},&quot;themeId&quot;:1492,&quot;themeType&quot;:&quot;店庆&quot;,&quot;backColor&quot;:&quot;&quot;}" class="banner_mb_tab_img_active"><img src="index_files/1533785970152.jpg(1)"><span>店庆</span></li><li data-index="1194" data-type="2" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2018/4/24/1524541419839.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/4/24/1524541425895.jpg&quot;,&quot;themeTypeId&quot;:2,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/4/24/1524541429991.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;#6cc6ce&quot;,&quot;border_size&quot;:&quot;1px&quot;,&quot;shadow_color&quot;:&quot;0&quot;,&quot;shadow_width&quot;:&quot;0&quot;,&quot;round&quot;:&quot;0px&quot;,&quot;padding_color&quot;:&quot;RGBA(255,255,255,.4)&quot;},&quot;qrBigColor&quot;:&quot;#ffdbdf&quot;,&quot;qrSmallColor&quot;:&quot;#54dadd&quot;,&quot;timeTitleColor&quot;:&quot;#5a5756&quot;,&quot;inputBoxColor&quot;:&quot;#F9292A&quot;,&quot;timePic&quot;:&quot;https://oss.laidiannet.com/theme/shishangTimePicx.png&quot;,&quot;timePicLong&quot;:&quot;694&quot;,&quot;timePicWide&quot;:&quot;108&quot;,&quot;titleColor&quot;:&quot;#ffffff&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#5a5756&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;https://oss.laidiannet.com/theme/shishangx.png&quot;,&quot;signUpPic&quot;:&quot;https://oss.laidiannet.com/theme/shisSignUpPicx.png&quot;,&quot;backimg&quot;:&quot;https://oss.laidiannet.com/theme/shisBackx.png&quot;,&quot;priceBackgroundColor&quot;:&quot;RGBA(255,255,255,.4)&quot;,&quot;speedProgress&quot;:&quot;https://oss.laidiannet.com/theme/shishangSp.gif&quot;,&quot;speedProgressBack&quot;:&quot;https://oss.laidiannet.com/theme/shishangSpBack.png&quot;},&quot;themeId&quot;:1194,&quot;themeType&quot;:&quot;时尚&quot;,&quot;backColor&quot;:&quot;#fffdf0&quot;}"><img src="index_files/1524541419839.jpg"><span>时尚</span></li><li data-index="1193" data-type="1" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2017/12/5/1512441939106.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://ldb-oss.oss-cn-shanghai.aliyuncs.com/theme/2017/12/5/1512441943198.jpg&quot;,&quot;themeTypeId&quot;:1,&quot;flatImage&quot;:&quot;https://ldb-oss.oss-cn-shanghai.aliyuncs.com/theme/2017/12/5/1512453060178.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;#56B7FF&quot;,&quot;border_size&quot;:&quot;4px&quot;,&quot;shadow_color&quot;:&quot;0&quot;,&quot;shadow_width&quot;:&quot;0&quot;,&quot;round&quot;:&quot;8px&quot;,&quot;padding_color&quot;:&quot;#FFF9E5&quot;},&quot;qrBigColor&quot;:&quot;#FCCF8B&quot;,&quot;qrSmallColor&quot;:&quot;#F3D724&quot;,&quot;timeTitleColor&quot;:&quot;#313131&quot;,&quot;inputBoxColor&quot;:&quot;#F9292A&quot;,&quot;timePic&quot;:&quot;http://oss.laidiannet.com/theme/katongTimePic.png&quot;,&quot;timePicLong&quot;:&quot;698&quot;,&quot;timePicWide&quot;:&quot;136&quot;,&quot;titleColor&quot;:&quot;#F9322A&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#FFFFFF&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;http://oss.laidiannet.com/theme/katong.png&quot;,&quot;speedProgress&quot;:&quot;https://oss.laidiannet.com/theme/katongSp.gif&quot;,&quot;speedProgressBack&quot;:&quot;https://oss.laidiannet.com/theme/katongSpBack.png&quot;},&quot;themeId&quot;:1193,&quot;themeType&quot;:&quot;卡通&quot;,&quot;backColor&quot;:&quot;#f3d724&quot;}"><img src="index_files/1512441939106.jpg"><span>卡通</span></li><li data-index="1190" data-type="9" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2017/12/5/1512441868836.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://ldb-oss.oss-cn-shanghai.aliyuncs.com/theme/2017/12/5/1512441872853.jpg&quot;,&quot;themeTypeId&quot;:9,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/5/15/1526369532554.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;#FFCF53&quot;,&quot;border_size&quot;:&quot;2px&quot;,&quot;shadow_color&quot;:&quot;&quot;,&quot;shadow_width&quot;:&quot;&quot;,&quot;round&quot;:&quot;3px&quot;,&quot;padding_color&quot;:&quot;#FFFFFF&quot;},&quot;qrBigColor&quot;:&quot;#e9bc51&quot;,&quot;qrSmallColor&quot;:&quot;#e8171d&quot;,&quot;timeTitleColor&quot;:&quot;#ffffff&quot;,&quot;inputBoxColor&quot;:&quot;#f1be41&quot;,&quot;timePic&quot;:&quot;http://oss.laidiannet.com/theme/d11TimePic.png&quot;,&quot;timePicLong&quot;:&quot;700&quot;,&quot;timePicWide&quot;:&quot;106&quot;,&quot;titleColor&quot;:&quot;#ECB734&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#701117&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;http://oss.laidiannet.com/theme/d11SmallTtitlePic.png&quot;},&quot;themeId&quot;:1190,&quot;themeType&quot;:&quot;节日&quot;,&quot;backColor&quot;:&quot;#e93e0d&quot;}"><img src="index_files/1512441868836.jpg"><span>节日</span></li><li data-index="1188" data-type="10" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2017/12/5/1512441829065.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://ldb-oss.oss-cn-shanghai.aliyuncs.com/theme/2017/12/5/1512441832483.jpg&quot;,&quot;themeTypeId&quot;:10,&quot;flatImage&quot;:&quot;https://ldb-oss.oss-cn-shanghai.aliyuncs.com/theme/2017/12/5/1512453076901.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;#00a7a0&quot;,&quot;border_size&quot;:&quot;2px&quot;,&quot;shadow_color&quot;:&quot;#00a7a0&quot;,&quot;shadow_width&quot;:&quot;2&quot;,&quot;round&quot;:&quot;&quot;,&quot;padding_color&quot;:&quot;#FFFFFF&quot;},&quot;qrBigColor&quot;:&quot;#90e5bc&quot;,&quot;qrSmallColor&quot;:&quot;#162d54&quot;,&quot;timeTitleColor&quot;:&quot;#000000&quot;,&quot;inputBoxColor&quot;:&quot;#F9292A&quot;,&quot;timePic&quot;:&quot;http://oss.laidiannet.com/theme/jyTimePic.png&quot;,&quot;timePicLong&quot;:&quot;722&quot;,&quot;timePicWide&quot;:&quot;114&quot;,&quot;titleColor&quot;:&quot;#C23809&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#010101&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;http://oss.laidiannet.com/theme/jySamllTitlePic.png&quot;,&quot;backimg&quot;:&quot;http://oss.laidiannet.com/theme/jyBackPic.jpg&quot;},&quot;themeId&quot;:1188,&quot;themeType&quot;:&quot;简约&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1512441829065.jpg"><span>简约</span></li><li data-index="1187" data-type="11" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2017/12/5/1512441797833.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://ldb-oss.oss-cn-shanghai.aliyuncs.com/theme/2017/12/5/1512441801752.jpg&quot;,&quot;themeTypeId&quot;:11,&quot;flatImage&quot;:&quot;https://ldb-oss.oss-cn-shanghai.aliyuncs.com/theme/2017/12/5/1512453086430.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;#7E7B73&quot;,&quot;border_size&quot;:&quot;2px&quot;,&quot;shadow_color&quot;:&quot;#68229C&quot;,&quot;shadow_width&quot;:&quot;3&quot;,&quot;round&quot;:&quot;0px&quot;,&quot;padding_color&quot;:&quot;#d7d7d7&quot;},&quot;qrBigColor&quot;:&quot;#baa4ee&quot;,&quot;qrSmallColor&quot;:&quot;#1a1729&quot;,&quot;timeTitleColor&quot;:&quot;#FFFFFF&quot;,&quot;inputBoxColor&quot;:&quot;#F9292A&quot;,&quot;timePic&quot;:&quot;http://oss.laidiannet.com/theme/kejiTimePic.png&quot;,&quot;timePicLong&quot;:&quot;698&quot;,&quot;timePicWide&quot;:&quot;106&quot;,&quot;titleColor&quot;:&quot;#FFFFFF&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#D2B77D&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;http://oss.laidiannet.com/theme/kejiSmallTitlePic.png&quot;,&quot;backimg&quot;:&quot;http://oss.laidiannet.com/theme/kejiBackPic.jpg&quot;},&quot;themeId&quot;:1187,&quot;themeType&quot;:&quot;科技&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1512441797833.jpg"><span>科技</span></li><li data-index="1185" data-type="12" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2017/12/5/1512441741035.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://ldb-oss.oss-cn-shanghai.aliyuncs.com/theme/2017/12/5/1512441746142.jpg&quot;,&quot;themeTypeId&quot;:12,&quot;flatImage&quot;:&quot;https://ldb-oss.oss-cn-shanghai.aliyuncs.com/theme/2017/12/5/1512453092532.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;#090103&quot;,&quot;border_size&quot;:&quot;3px&quot;,&quot;shadow_color&quot;:&quot;&quot;,&quot;shadow_width&quot;:&quot;&quot;,&quot;round&quot;:&quot;0px&quot;,&quot;padding_color&quot;:&quot;#FFFFFF&quot;},&quot;qrBigColor&quot;:&quot;#febfc8&quot;,&quot;qrSmallColor&quot;:&quot;#d94c74&quot;,&quot;timeTitleColor&quot;:&quot;#000000&quot;,&quot;inputBoxColor&quot;:&quot;#F9292A&quot;,&quot;timePic&quot;:&quot;http://oss.laidiannet.com/theme/keaiTimePic.png&quot;,&quot;timePicLong&quot;:&quot;698&quot;,&quot;timePicWide&quot;:&quot;119&quot;,&quot;titleColor&quot;:&quot;#000000&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#000000&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;http://oss.laidiannet.com/theme/keaiSmallTitlePic.png&quot;,&quot;backimg&quot;:&quot;http://oss.laidiannet.com/theme/keaiBackPic.jpg&quot;,&quot;speedProgress&quot;:&quot;https://oss.laidiannet.com/theme/keaiSp.gif&quot;,&quot;speedProgressBack&quot;:&quot;https://oss.laidiannet.com/theme/keaiSpBack.png&quot;},&quot;themeId&quot;:1185,&quot;themeType&quot;:&quot;可爱&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1512441741035.jpg"><span>可爱</span></li><li data-index="1184" data-type="13" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2017/12/5/1512441694945.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://ldb-oss.oss-cn-shanghai.aliyuncs.com/theme/2017/12/5/1512441699454.jpg&quot;,&quot;themeTypeId&quot;:13,&quot;flatImage&quot;:&quot;https://ldb-oss.oss-cn-shanghai.aliyuncs.com/theme/2017/12/5/1512453099268.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;#F7E385&quot;,&quot;border_size&quot;:&quot;2px&quot;,&quot;shadow_color&quot;:&quot;&quot;,&quot;shadow_width&quot;:&quot;&quot;,&quot;round&quot;:&quot;0px&quot;,&quot;padding_color&quot;:&quot;#ffffff&quot;},&quot;qrBigColor&quot;:&quot;#c5666c&quot;,&quot;qrSmallColor&quot;:&quot;#232323&quot;,&quot;timeTitleColor&quot;:&quot;#FFFFFF&quot;,&quot;inputBoxColor&quot;:&quot;#F9292A&quot;,&quot;timePic&quot;:&quot;http://oss.laidiannet.com/theme/xkuTimePic.png&quot;,&quot;timePicLong&quot;:&quot;698&quot;,&quot;timePicWide&quot;:&quot;105&quot;,&quot;titleColor&quot;:&quot;#F7E385&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#F7E385&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;http://oss.laidiannet.com/theme/xkuSmallTitlePic.png&quot;,&quot;backimg&quot;:&quot;http://oss.laidiannet.com/theme/xkuBackPic.jpg&quot;},&quot;themeId&quot;:1184,&quot;themeType&quot;:&quot;炫酷&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1512441694945.jpg"><span>炫酷</span></li><li data-index="1279" data-type="9" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2018/2/11/1518328851190.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/2/11/1518333167454.jpg&quot;,&quot;themeTypeId&quot;:9,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/5/9/1525845351680.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;#f16a7b&quot;,&quot;border_size&quot;:&quot;1px&quot;,&quot;shadow_color&quot;:&quot;0&quot;,&quot;shadow_width&quot;:&quot;0&quot;,&quot;round&quot;:&quot;10px&quot;,&quot;padding_color&quot;:&quot;#FCEBD3&quot;},&quot;qrBigColor&quot;:&quot;#fcebd3&quot;,&quot;qrSmallColor&quot;:&quot;#b0782a&quot;,&quot;timeTitleColor&quot;:&quot;#000000&quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;https://oss.laidiannet.com/theme/yuanxTimePic.png&quot;,&quot;timePicLong&quot;:&quot;713&quot;,&quot;timePicWide&quot;:&quot;104&quot;,&quot;titleColor&quot;:&quot;#000000&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#000000&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;https://oss.laidiannet.com/theme/yuanxSmallTitle.png&quot;,&quot;backimg&quot;:&quot;https://oss.laidiannet.com/theme/yuanxBackImg.jpg&quot;},&quot;themeId&quot;:1279,&quot;themeType&quot;:&quot;节日&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1518328851190.jpg"><span>节日</span></li><li data-index="1463" data-type="9" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2018/7/18/1531903088460.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/7/18/1531903093038.jpg&quot;,&quot;themeTypeId&quot;:9,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/7/18/1531903097337.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;0&quot;,&quot;border_size&quot;:&quot;0&quot;,&quot;shadow_color&quot;:&quot;0&quot;,&quot;shadow_width&quot;:&quot;0&quot;,&quot;round&quot;:&quot;8px&quot;,&quot;padding_color&quot;:&quot;#ffffff&quot;},&quot;qrBigColor&quot;:&quot;#fcce70&quot;,&quot;qrSmallColor&quot;:&quot;#ffac00&quot;,&quot;timeTitleColor&quot;:&quot;#ffffff&quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;https://oss.laidiannet.com/theme/qiXiBuleTime.png&quot;,&quot;timePicLong&quot;:&quot;705&quot;,&quot;timePicWide&quot;:&quot;67&quot;,&quot;titleColor&quot;:&quot;#bd1c37&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#ffffff&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;https://oss.laidiannet.com/theme/qiXiBlueSmallTitle.png&quot;,&quot;titleVerticalAlign&quot;:&quot;middle&quot;,&quot;signUpPic&quot;:&quot;https://oss.laidiannet.com/theme/qiXiPinkSignUp.png&quot;,&quot;backimg&quot;:&quot;https://oss.laidiannet.com/theme/qiXiPinkBack.jpg&quot;,&quot;speedProgress&quot;:&quot;https://oss.laidiannet.com/theme/qiXiBuleSp.gif&quot;,&quot;speedProgressBack&quot;:&quot;https://oss.laidiannet.com/theme/qiXiBlueSpBack.png&quot;,&quot;imgIcon&quot;:[&quot;&quot;,&quot;&quot;,&quot;https://oss.laidiannet.com/theme/qiXiBlueIcon.png&quot;,&quot;&quot;]},&quot;themeId&quot;:1463,&quot;themeType&quot;:&quot;节日&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1531903088460.jpg"><span>节日</span></li><li data-index="1261" data-type="9" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2018/1/19/1516332260080.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://ldb-oss.oss-cn-shanghai.aliyuncs.com/theme/2018/1/19/1516332263495.jpg&quot;,&quot;themeTypeId&quot;:9,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/5/9/1525845363716.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;#790709&quot;,&quot;border_size&quot;:&quot;1px&quot;,&quot;shadow_color&quot;:&quot;#301d00&quot;,&quot;shadow_width&quot;:&quot;5&quot;,&quot;round&quot;:&quot;10px&quot;,&quot;padding_color&quot;:&quot;#ffebcc&quot;},&quot;qrBigColor&quot;:&quot;#ed6f3c&quot;,&quot;qrSmallColor&quot;:&quot;#dd1a28&quot;,&quot;timeTitleColor&quot;:&quot;#000000&quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;https://oss.laidiannet.com/theme/chunJ1TimePic.png&quot;,&quot;timePicLong&quot;:&quot;723&quot;,&quot;timePicWide&quot;:&quot;120&quot;,&quot;titleColor&quot;:&quot;#ffffff&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#fffae4&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;https://oss.laidiannet.com/theme/chunJ1SmallTtitlePic.png&quot;,&quot;backimg&quot;:&quot;https://oss.laidiannet.com/theme/chunJ1BackPic.jpg&quot;},&quot;themeId&quot;:1261,&quot;themeType&quot;:&quot;节日&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1516332260080.jpg"><span>节日</span></li><li data-index="1254" data-type="9" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2018/6/13/1528859831804.png&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/6/13/1528859844001.jpg&quot;,&quot;themeTypeId&quot;:9,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/6/13/1528859851246.png&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;#f16a7b&quot;,&quot;border_size&quot;:&quot;1px&quot;,&quot;shadow_color&quot;:&quot;0&quot;,&quot;shadow_width&quot;:&quot;0&quot;,&quot;round&quot;:&quot;10px&quot;,&quot;padding_color&quot;:&quot;rgba(255,255,255,.5)&quot;},&quot;qrBigColor&quot;:&quot;#f5b1bc&quot;,&quot;qrSmallColor&quot;:&quot;#f4597b&quot;,&quot;timeTitleColor&quot;:&quot;#000000&quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;https://oss.laidiannet.com/theme/qingRenJTimePic.png&quot;,&quot;timePicLong&quot;:&quot;670&quot;,&quot;timePicWide&quot;:&quot;130&quot;,&quot;titleColor&quot;:&quot;#ffffff&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#ffffff&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;https://oss.laidiannet.com/theme/qingRJLxSmallTitle.png&quot;,&quot;backimg&quot;:&quot;https://oss.laidiannet.com/theme/qingRenJBackPic.jpg&quot;},&quot;themeId&quot;:1254,&quot;themeType&quot;:&quot;节日&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1528859831804.png"><span>节日</span></li><li data-index="1220" data-type="15" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2017/12/13/1513134110672.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://ldb-oss.oss-cn-shanghai.aliyuncs.com/theme/2017/12/13/1513134115409.jpg&quot;,&quot;themeTypeId&quot;:15,&quot;flatImage&quot;:&quot;https://ldb-oss.oss-cn-shanghai.aliyuncs.com/theme/2017/12/13/1513134120429.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;#6e0e1d&quot;,&quot;border_size&quot;:&quot;2px&quot;,&quot;shadow_color&quot;:&quot;#6e0e1d&quot;,&quot;shadow_width&quot;:&quot;5&quot;,&quot;round&quot;:&quot;30px&quot;,&quot;padding_color&quot;:&quot;#ffffe9&quot;},&quot;qrBigColor&quot;:&quot;#ff801f&quot;,&quot;qrSmallColor&quot;:&quot;#f30111&quot;,&quot;timeTitleColor&quot;:&quot;#000000&quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;http://oss.laidiannet.com/theme/xiqTimePic.png&quot;,&quot;timePicLong&quot;:&quot;670&quot;,&quot;timePicWide&quot;:&quot;106&quot;,&quot;titleColor&quot;:&quot;#ffffff&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#9d4032&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;http://oss.laidiannet.com/theme/xiqSmallTitlePic.png&quot;,&quot;backimg&quot;:&quot;http://oss.laidiannet.com/theme/xiqBackPic.jpg&quot;},&quot;themeId&quot;:1220,&quot;themeType&quot;:&quot;喜庆&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1513134110672.jpg"><span>喜庆</span></li><li data-index="1214" data-type="9" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2017/12/11/1512978496927.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://ldb-oss.oss-cn-shanghai.aliyuncs.com/theme/2017/12/11/1512978501028.jpg&quot;,&quot;themeTypeId&quot;:9,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/5/15/1526369181934.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;#3b3b3b&quot;,&quot;border_size&quot;:&quot;2px&quot;,&quot;shadow_color&quot;:&quot;#3b3b3b&quot;,&quot;shadow_width&quot;:&quot;5&quot;,&quot;round&quot;:&quot;10px&quot;,&quot;padding_color&quot;:&quot;#f2c7c7&quot;},&quot;qrBigColor&quot;:&quot;#ffd321&quot;,&quot;qrSmallColor&quot;:&quot;#ce0515&quot;,&quot;timeTitleColor&quot;:&quot;#ffffff&quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;http://oss.laidiannet.com/theme/yuanDTimePic.png&quot;,&quot;timePicLong&quot;:&quot;712&quot;,&quot;timePicWide&quot;:&quot;98&quot;,&quot;titleColor&quot;:&quot;#ffffff&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#ffff46&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;http://oss.laidiannet.com/theme/yuanDSmallTtitlePic.png&quot;,&quot;backimg&quot;:&quot;http://oss.laidiannet.com/theme/yuanDBackPic.jpg&quot;},&quot;themeId&quot;:1214,&quot;themeType&quot;:&quot;节日&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1512978496927.jpg"><span>节日</span></li><li data-index="1208" data-type="9" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2017/12/11/1512978265324.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://ldb-oss.oss-cn-shanghai.aliyuncs.com/theme/2017/12/11/1512978259813.jpg&quot;,&quot;themeTypeId&quot;:9,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/5/15/1526369197360.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;#bb2a2a&quot;,&quot;border_size&quot;:&quot;2px&quot;,&quot;shadow_color&quot;:&quot;#bb2a2a&quot;,&quot;shadow_width&quot;:&quot;5&quot;,&quot;round&quot;:&quot;10px&quot;,&quot;padding_color&quot;:&quot;#FFFFFF&quot;},&quot;qrBigColor&quot;:&quot;#ff961d&quot;,&quot;qrSmallColor&quot;:&quot;#e41d26&quot;,&quot;timeTitleColor&quot;:&quot;#ffffff&quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;http://oss.laidiannet.com/theme/shengDTimePic.png&quot;,&quot;timePicLong&quot;:&quot;608&quot;,&quot;timePicWide&quot;:&quot;160&quot;,&quot;titleColor&quot;:&quot;#ffffff&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#ffff46&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;http://oss.laidiannet.com/theme/shengDSmallTtitlePic.png&quot;,&quot;backimg&quot;:&quot;http://oss.laidiannet.com/theme/shengDBackPic.jpg&quot;},&quot;themeId&quot;:1208,&quot;themeType&quot;:&quot;节日&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1512978265324.jpg"><span>节日</span></li><li data-index="1183" data-type="9" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2017/12/5/1512441606774.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://ldb-oss.oss-cn-shanghai.aliyuncs.com/theme/2017/12/5/1512441611324.jpg&quot;,&quot;themeTypeId&quot;:9,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/5/15/1526369218664.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;#a84494&quot;,&quot;border_size&quot;:&quot;2px&quot;,&quot;shadow_color&quot;:&quot;#a84494&quot;,&quot;shadow_width&quot;:&quot;10&quot;,&quot;round&quot;:&quot;10px&quot;,&quot;padding_color&quot;:&quot;#FFFFFF&quot;},&quot;qrBigColor&quot;:&quot;#ff961d&quot;,&quot;qrSmallColor&quot;:&quot;#e41d26&quot;,&quot;timeTitleColor&quot;:&quot;#ffffff&quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;http://oss.laidiannet.com/theme/d12TimePic.png&quot;,&quot;timePicLong&quot;:&quot;618&quot;,&quot;timePicWide&quot;:&quot;94&quot;,&quot;titleColor&quot;:&quot;#ffffff&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#ffff46&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;http://oss.laidiannet.com/theme/d12SmallTtitlePic.png&quot;,&quot;backimg&quot;:&quot;http://oss.laidiannet.com/theme/d12BackPic.jpg&quot;},&quot;themeId&quot;:1183,&quot;themeType&quot;:&quot;节日&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1512441606774.jpg"><span>节日</span></li><li data-index="1464" data-type="9" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2018/7/18/1531903121315.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/7/18/1531903126526.jpg&quot;,&quot;themeTypeId&quot;:9,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/7/18/1531903131463.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;0&quot;,&quot;border_size&quot;:&quot;0&quot;,&quot;shadow_color&quot;:&quot;0&quot;,&quot;shadow_width&quot;:&quot;0&quot;,&quot;round&quot;:&quot;8px&quot;,&quot;padding_color&quot;:&quot;#ffffff&quot;},&quot;qrBigColor&quot;:&quot;#f57972&quot;,&quot;qrSmallColor&quot;:&quot;#dd4c44&quot;,&quot;timeTitleColor&quot;:&quot;#ffffff&quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;https://oss.laidiannet.com/theme/qiXiBuleTime.png&quot;,&quot;timePicLong&quot;:&quot;705&quot;,&quot;timePicWide&quot;:&quot;67&quot;,&quot;titleColor&quot;:&quot;#140c3b&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#ffffff&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;https://oss.laidiannet.com/theme/qiXiBlueSmallTitle.png&quot;,&quot;titleVerticalAlign&quot;:&quot;middle&quot;,&quot;signUpPic&quot;:&quot;https://oss.laidiannet.com/theme/qiXiBlueSignUp.png&quot;,&quot;backimg&quot;:&quot;https://oss.laidiannet.com/theme/qiXiBlueBack.jpg&quot;,&quot;speedProgress&quot;:&quot;https://oss.laidiannet.com/theme/qiXiBuleSp.gif&quot;,&quot;speedProgressBack&quot;:&quot;https://oss.laidiannet.com/theme/qiXiBlueSpBack.png&quot;,&quot;imgIcon&quot;:[&quot;&quot;,&quot;&quot;,&quot;https://oss.laidiannet.com/theme/qiXiBlueIcon.png&quot;,&quot;&quot;]},&quot;themeId&quot;:1464,&quot;themeType&quot;:&quot;节日&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1531903121315.jpg"><span>节日</span></li><li data-index="1431" data-type="9" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2018/6/13/1528871751474.png&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/6/13/1528871755523.png&quot;,&quot;themeTypeId&quot;:9,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/6/13/1528871758726.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;#febd0f&quot;,&quot;border_size&quot;:&quot;5px&quot;,&quot;shadow_color&quot;:&quot;0&quot;,&quot;shadow_width&quot;:&quot;0&quot;,&quot;round&quot;:&quot;2px&quot;,&quot;padding_color&quot;:&quot;#ffe70b&quot;},&quot;qrBigColor&quot;:&quot;#359838&quot;,&quot;qrSmallColor&quot;:&quot;#91ba21&quot;,&quot;timeTitleColor&quot;:&quot;#ffe70b&quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;https://oss.laidiannet.com/theme/shiJieBTime.png&quot;,&quot;timePicLong&quot;:&quot;766&quot;,&quot;timePicWide&quot;:&quot;153&quot;,&quot;titleColor&quot;:&quot;#f9f9f9&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#ffffff&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;https://oss.laidiannet.com/theme/shiJieBsamllTitle.png&quot;,&quot;titleVerticalAlign&quot;:&quot;bottom&quot;,&quot;signUpPic&quot;:&quot;https://oss.laidiannet.com/theme/shiJiebSignUp.png&quot;,&quot;backimg&quot;:&quot;https://oss.laidiannet.com/theme/shiJieBback.png&quot;,&quot;speedProgress&quot;:&quot;https://oss.laidiannet.com/theme/shiJiebSp.gif&quot;,&quot;speedProgressBack&quot;:&quot;https://oss.laidiannet.com/theme/shiJieBSpBack.png&quot;},&quot;themeId&quot;:1431,&quot;themeType&quot;:&quot;节日&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1528871751474.png"><span>节日</span></li><li data-index="1403" data-type="9" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2018/6/6/1528271826051.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/6/6/1528271828664.jpg&quot;,&quot;themeTypeId&quot;:9,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/6/6/1528271831551.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;0&quot;,&quot;border_size&quot;:&quot;0&quot;,&quot;shadow_color&quot;:&quot;0&quot;,&quot;shadow_width&quot;:&quot;0&quot;,&quot;round&quot;:&quot;8px&quot;,&quot;padding_color&quot;:&quot;#ffffff&quot;},&quot;qrBigColor&quot;:&quot;#f7b122&quot;,&quot;qrSmallColor&quot;:&quot;#e32553&quot;,&quot;timeTitleColor&quot;:&quot;#1B1B1B&quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;http://wsl-oss-sh.oss-cn-shanghai.aliyuncs.com/theme/kj618Time.png&quot;,&quot;timePicLong&quot;:&quot;702&quot;,&quot;timePicWide&quot;:&quot;120&quot;,&quot;titleColor&quot;:&quot;#1B1B1B&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#313131&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;https://oss.laidiannet.com/theme/kj618SmallTitle.png&quot;,&quot;titleVerticalAlign&quot;:&quot;bottom&quot;,&quot;backimg&quot;:&quot;https://oss.laidiannet.com/theme/kj618Back.png&quot;},&quot;themeId&quot;:1403,&quot;themeType&quot;:&quot;节日&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1528271826051.jpg"><span>节日</span></li><li data-index="1368" data-type="9" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2018/5/21/1526897552465.png&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/5/21/1526897556335.jpg&quot;,&quot;themeTypeId&quot;:9,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/5/21/1526897559270.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;&quot;,&quot;border_size&quot;:&quot;0px&quot;,&quot;shadow_color&quot;:&quot;0&quot;,&quot;shadow_width&quot;:&quot;0&quot;,&quot;round&quot;:&quot;5px&quot;,&quot;padding_color&quot;:&quot;#ffffff&quot;,&quot;boxShadow&quot;:&quot;0px 0px 5px 0px #558961 outset&quot;},&quot;qrBigColor&quot;:&quot;#8ce4aa&quot;,&quot;qrSmallColor&quot;:&quot;#8ee5e5&quot;,&quot;timeTitleColor&quot;:&quot;#124a57&quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;https://oss.laidiannet.com/theme/duanWujTime.png&quot;,&quot;timePicLong&quot;:&quot;698&quot;,&quot;timePicWide&quot;:&quot;113&quot;,&quot;titleColor&quot;:&quot;#124a57&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#1d5b10&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;https://oss.laidiannet.com/theme/duanWuJSmallTitle.png&quot;,&quot;titleVerticalAlign&quot;:&quot;bottom&quot;,&quot;signUpPic&quot;:&quot;https://oss.laidiannet.com/theme/duanWujSignUp.png&quot;,&quot;backimg&quot;:&quot;https://oss.laidiannet.com/theme/duanWujBack.png&quot;,&quot;priceBackgroundColor&quot;:&quot;#97eca8&quot;,&quot;speedProgress&quot;:&quot;https://oss.laidiannet.com/theme/duanWuJieSP.gif&quot;,&quot;speedProgressBack&quot;:&quot;https://oss.laidiannet.com/theme/duanWuJSpeedProgressBack.png&quot;},&quot;themeId&quot;:1368,&quot;themeType&quot;:&quot;节日&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1526897552465.png"><span>节日</span></li><li data-index="1367" data-type="9" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2018/5/21/1526897525848.png&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/5/21/1526897528579.png&quot;,&quot;themeTypeId&quot;:9,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/5/21/1526897531439.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;#45547c&quot;,&quot;border_size&quot;:&quot;3px&quot;,&quot;shadow_color&quot;:&quot;0&quot;,&quot;shadow_width&quot;:&quot;0&quot;,&quot;round&quot;:&quot;20px&quot;,&quot;padding_color&quot;:&quot;#ffffff&quot;},&quot;qrBigColor&quot;:&quot;#6991c7&quot;,&quot;qrSmallColor&quot;:&quot;#a3bded&quot;,&quot;timeTitleColor&quot;:&quot;#184562&quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;https://oss.laidiannet.com/theme/fuQinJTimePic.png&quot;,&quot;timePicLong&quot;:&quot;750&quot;,&quot;timePicWide&quot;:&quot;83&quot;,&quot;titleColor&quot;:&quot;#184562&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#ffffff&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;https://oss.laidiannet.com/theme/fuQinJSmallTitle.png&quot;,&quot;titleVerticalAlign&quot;:&quot;top&quot;,&quot;signUpPic&quot;:&quot;https://oss.laidiannet.com/theme/fuQinJSignUp.png&quot;,&quot;backimg&quot;:&quot;https://oss.laidiannet.com/theme/fuQinJBackPic.png&quot;,&quot;priceBackgroundColor&quot;:&quot;#4c8dbf&quot;,&quot;speedProgress&quot;:&quot;https://oss.laidiannet.com/theme/fuQinJsP.gif&quot;,&quot;speedProgressBack&quot;:&quot;https://oss.laidiannet.com/theme/fuQinJspeedProgressBack.png&quot;},&quot;themeId&quot;:1367,&quot;themeType&quot;:&quot;节日&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1526897525848.png"><span>节日</span></li><li data-index="1333" data-type="9" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2018/4/27/1524813549782.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/4/27/1524813552602.jpg&quot;,&quot;themeTypeId&quot;:9,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/5/9/1525845316373.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;&quot;,&quot;border_size&quot;:&quot;0&quot;,&quot;shadow_color&quot;:&quot;0&quot;,&quot;shadow_width&quot;:&quot;0&quot;,&quot;round&quot;:&quot;10px&quot;,&quot;padding_color&quot;:&quot;#ffffff&quot;},&quot;qrBigColor&quot;:&quot;#5cd9b4&quot;,&quot;qrSmallColor&quot;:&quot;#389e8f&quot;,&quot;timeTitleColor&quot;:&quot;#5a5756&quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;https://oss.laidiannet.com/theme/ertjTimeBack.png&quot;,&quot;timePicLong&quot;:&quot;664&quot;,&quot;timePicWide&quot;:&quot;108&quot;,&quot;titleColor&quot;:&quot;#ffffff&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#166265&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;https://oss.laidiannet.com/theme/ertjSmallTitle.png&quot;,&quot;titleVerticalAlign&quot;:&quot;top&quot;,&quot;signUpPic&quot;:&quot;https://oss.laidiannet.com/theme/ertjSignUp.png&quot;,&quot;backimg&quot;:&quot;https://oss.laidiannet.com/theme/ertjback.jpg&quot;,&quot;priceBackgroundColor&quot;:&quot;RGBA(255,225,152,.3)&quot;,&quot;imgIcon&quot;:[&quot;&quot;,&quot;&quot;,&quot;https://oss.laidiannet.com/theme/ertjSmallPic.png&quot;,&quot;&quot;]},&quot;themeId&quot;:1333,&quot;themeType&quot;:&quot;节日&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1524813549782.jpg"><span>节日</span></li><li data-index="1322" data-type="9" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2018/4/20/1524192670322.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/4/20/1524192675474.jpg&quot;,&quot;themeTypeId&quot;:9,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/5/9/1525845326690.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;#ffefee&quot;,&quot;border_size&quot;:&quot;4px&quot;,&quot;shadow_color&quot;:&quot;0&quot;,&quot;shadow_width&quot;:&quot;0&quot;,&quot;round&quot;:&quot;0&quot;,&quot;padding_color&quot;:&quot;RGBA(250,239,238,.4)&quot;,&quot;borderStyle&quot;:&quot;double&quot;},&quot;qrBigColor&quot;:&quot;#ffeded&quot;,&quot;qrSmallColor&quot;:&quot;#eb474e&quot;,&quot;timeTitleColor&quot;:&quot;#ffffff&quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;https://oss.laidiannet.com/theme/muyqinjTimePic.png&quot;,&quot;timePicLong&quot;:&quot;730&quot;,&quot;timePicWide&quot;:&quot;90&quot;,&quot;titleColor&quot;:&quot;#fa7379&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#fe9ea4&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;https://oss.laidiannet.com/theme/muqinjSmallTitle.png&quot;,&quot;signUpPic&quot;:&quot;https://oss.laidiannet.com/theme/signUpMuqinj.png&quot;,&quot;priceBackgroundColor&quot;:&quot;RGBA(253,162,168,.4)&quot;,&quot;backimg&quot;:&quot;https://oss.laidiannet.com/theme/muqingjBackPic.jpg&quot;},&quot;themeId&quot;:1322,&quot;themeType&quot;:&quot;节日&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1524192670322.jpg"><span>节日</span></li><li data-index="1321" data-type="9" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2018/4/20/1524192640802.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/4/20/1524192643462.jpg&quot;,&quot;themeTypeId&quot;:9,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/5/9/1525845342688.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;#cabd86&quot;,&quot;border_size&quot;:&quot;4px&quot;,&quot;shadow_color&quot;:&quot;0&quot;,&quot;shadow_width&quot;:&quot;0&quot;,&quot;round&quot;:&quot;10px&quot;,&quot;padding_color&quot;:&quot;#fdf7dd&quot;,&quot;boxShadow&quot;:&quot;0px 0px 5px 0px #cabd86 inser&quot;},&quot;qrBigColor&quot;:&quot;#d05032&quot;,&quot;qrSmallColor&quot;:&quot;#a40003&quot;,&quot;timeTitleColor&quot;:&quot;#341117&quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;https://oss.laidiannet.com/theme/51TimePic.png&quot;,&quot;timePicLong&quot;:&quot;750&quot;,&quot;timePicWide&quot;:&quot;110&quot;,&quot;titleColor&quot;:&quot;#fdf7dd&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#fdc667&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;https://oss.laidiannet.com/theme/51SmallTitle.png&quot;},&quot;themeId&quot;:1321,&quot;themeType&quot;:&quot;节日&quot;,&quot;backColor&quot;:&quot;#be2a2a&quot;}"><img src="index_files/1524192640802.jpg"><span>节日</span></li><li data-index="1268" data-type="9" data="{&quot;headImgUrl&quot;:&quot;https://oss.laidiannet.com/theme/2018/1/19/1516332708164.jpg&quot;,&quot;templateId&quot;:142,&quot;listImage&quot;:&quot;https://ldb-oss.oss-cn-shanghai.aliyuncs.com/theme/2018/1/19/1516332711884.jpg&quot;,&quot;themeTypeId&quot;:9,&quot;flatImage&quot;:&quot;https://oss.laidiannet.com/theme/2018/5/9/1525845358464.jpg&quot;,&quot;themeData&quot;:{&quot;border&quot;:{&quot;border_color&quot;:&quot;#790709&quot;,&quot;border_size&quot;:&quot;1px&quot;,&quot;shadow_color&quot;:&quot;#301d00&quot;,&quot;shadow_width&quot;:&quot;0&quot;,&quot;round&quot;:&quot;0px&quot;,&quot;padding_color&quot;:&quot;#ffebcc&quot;},&quot;qrBigColor&quot;:&quot;#ff5649&quot;,&quot;qrSmallColor&quot;:&quot;#b72b2e&quot;,&quot;timeTitleColor&quot;:&quot;#000000&quot;,&quot;inputBoxColor&quot;:&quot;#f19149&quot;,&quot;timePic&quot;:&quot;https://oss.laidiannet.com/theme/chunJ2TimePic.png&quot;,&quot;timePicLong&quot;:&quot;734&quot;,&quot;timePicWide&quot;:&quot;151&quot;,&quot;titleColor&quot;:&quot;#ffffff&quot;,&quot;titleFontSize&quot;:&quot;20px&quot;,&quot;smallTitleColor&quot;:&quot;#b42c16&quot;,&quot;smallTitleFontSize&quot;:&quot;16px&quot;,&quot;smallTitlePic&quot;:&quot;https://oss.laidiannet.com/theme/chunJ2SmallTtitlePic.png&quot;,&quot;backimg&quot;:&quot;https://oss.laidiannet.com/theme/chunJ2BackPic.jpg&quot;},&quot;themeId&quot;:1268,&quot;themeType&quot;:&quot;节日&quot;,&quot;backColor&quot;:&quot;&quot;}"><img src="index_files/1516332708164.jpg"><span>节日</span></li></ul>
+			</div>
+		</div>
+		<div class="banner_img_tab_clk">
+			<ul>
+				<li id="file">相册</li>
+				<li id="to_camera">拍照</li>
+				<li id="close_img_tab">取消</li>
+				<input id="pics" type="file" name="pics" style="display: none;">
+				<input id="to_cameras" type="file" style="display: none;" capture="camera" accept="image/*">
+			</ul>
+		</div>
+		<div class="banner_img_tab_clk_bj"></div>
+
+		<!-- 刘亚---新加制作页的动效和音乐的选择按钮 -->
+		<ul class="mb-edit-btnWrap">
+			<li class="mb-edit-btn" id="musicBtn">
+				<img src="index_files/music-edit-3195d62171.png" alt="">
+				<h3>音乐</h3>
+			</li>
+			<li class="mb-edit-btn" id="animateBtn">
+				<img src="index_files/dx-edit-9936a10e52.png" alt="">
+				<h3>特效</h3>
+			</li>
+		</ul>
+		<!-- ************************************************************************************************ -->
+	</div>
+
+
+	<!--行业图片-->
+	<div class="industry_img_list">
+		<div class="upload_img_industry">上传图片</div>
+		<span class="industry_text">建议尺寸：750*600</span>
+		<div class="industry_clk">确定</div>
+		<div class="industry_colse" data="https://oss.laidiannet.com/theme/2018/8/9/1533785970152.jpg?x-oss-process=image/quality,q_40/format,jpg/resize,w_1260">取消</div>
+		<div class="industry_img_bj">
+			<ul class="industry_img" style="pointer-events: auto; transition-property: transform; transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px); width: 69.3rem;">
+
+			<li data="4" style="display:none;"><img src="index_files/1535450518405.jpg"></li><li data="4" style="display:none;"><img src="index_files/1535450310280.jpg"></li><li data="4" style="display:none;"><img src="index_files/1534851323306.jpg"></li><li data="4" style="display:none;"><img src="index_files/1534851137897.jpg"></li><li data="4" style="display:none;"><img src="index_files/1534486083376.jpg"></li><li data="4" style="display:none;"><img src="index_files/1534485936611.jpg"></li><li data="4" style="display:none;"><img src="index_files/1534240295951.jpg"></li><li data="4" style="display:none;"><img src="index_files/1534240167794.jpg"></li><li data="4" style="display:none;"><img src="index_files/1534239987641.jpg"></li><li data="4" style="display:none;"><img src="index_files/1534126115433.jpg"></li><li data="4" style="display:none;"><img src="index_files/1534125806127.jpg"></li><li data="4" style="display:none;"><img src="index_files/1531884921558.jpg"></li><li data="4" style="display:none;"><img src="index_files/1531884740086.jpg"></li><li data="4" style="display:none;"><img src="index_files/1530523734412.jpg"></li><li data="4" style="display:none;"><img src="index_files/1530523608352.jpg"></li><li data="4" style="display:none;"><img src="index_files/1528268659136.jpg"></li><li data="4" style="display:none;"><img src="index_files/1528268187280.jpg"></li><li data="4" style="display:none;"><img src="index_files/1528193334081.jpg"></li><li data="4" style="display:none;"><img src="index_files/1528193096123.jpg"></li><li data="4" style="display:none;"><img src="index_files/1527497051935.jpg"></li><li data="4" style="display:none;"><img src="index_files/1527497002880.jpg"></li><li data="4" style="display:none;"><img src="index_files/1527496926435.jpg"></li><li data="4" style="display:none;"><img src="index_files/1527496748177.jpg"></li><li data="4" style="display:none;"><img src="index_files/1525419808105.jpg"></li><li data="4" style="display:none;"><img src="index_files/1525419748755.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524195908986.jpg"></li><li data="6" style="display:none;"><img src="index_files/1524195867144.jpg"></li><li data="6" style="display:none;"><img src="index_files/1524195837737.jpg"></li><li data="6" style="display:none;"><img src="index_files/1524195798810.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524195777592.jpg"></li><li data="6" style="display:none;"><img src="index_files/1524195751779.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524195723435.jpg"></li><li data="6" style="display:none;"><img src="index_files/1524195718573.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524195663898.jpg"></li><li data="6" style="display:none;"><img src="index_files/1524195663294.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524195616852.jpg"></li><li data="6" style="display:none;"><img src="index_files/1524195630772.jpg"></li><li data="6" style="display:none;"><img src="index_files/1524195594629.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524195579766.jpg"></li><li data="6" style="display:none;"><img src="index_files/1524195563573.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524195536746.jpg"></li><li data="6" style="display:none;"><img src="index_files/1524195528291.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524195473623.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524195459471.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524195435252.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524195421540.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524195380031.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524195384989.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524195340207.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524195339452.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524195295564.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524195289334.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524195247352.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524195240391.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524195206049.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524195199379.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524195172338.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524195150126.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524195129819.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524195103548.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524195088404.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524195040234.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524195048140.jpg"></li><li data="2" style="display:none;"><img src="index_files/1524194992649.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524194988732.jpg"></li><li data="2" style="display:none;"><img src="index_files/1524194949639.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524194945046.jpg"></li><li data="2" style="display:none;"><img src="index_files/1524194910867.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524194883789.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524194804710.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524194835484.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524194783793.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524194682554.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524194614702.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524194541280.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524194560890.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524194496856.jpg"></li><li data="3" style="display:none;"><img src="index_files/1524194507243.jpg"></li><li data="3" style="display:none;"><img src="index_files/1524194463615.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524194446533.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524194413542.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524194393853.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524194364927.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524194313898.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524194292462.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524194267084.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524194187585.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524194187792.jpg"></li><li data="5" style="display:none;"><img src="index_files/1524194143440.jpg"></li><li data="7" style="display:none;"><img src="index_files/1524193764265.jpg"></li><li data="4" style="display:none;"><img src="index_files/1522807488593.jpg"></li><li data="4" style="display:none;"><img src="index_files/1522807382542.jpg"></li><li data="4" style="display:none;"><img src="index_files/1522667160996.jpg"></li><li data="4" style="display:none;"><img src="index_files/1522667115954.jpg"></li><li data="5" style="display:none;"><img src="index_files/1520504332249.jpg"></li><li data="6" style="display:none;"><img src="index_files/1520504309882.jpg"></li><li data="7" style="display:none;"><img src="index_files/1520504278939.jpg"></li><li data="7" style="display:none;"><img src="index_files/1520504254939.jpg"></li><li data="7" style="display:none;"><img src="index_files/1520504233454.jpg"></li><li data="7" style="display:none;"><img src="index_files/1520504209735.jpg"></li><li data="7" style="display:none;"><img src="index_files/1520504171328.jpg"></li><li data="2" style="display:none;"><img src="index_files/1520504133588.jpg"></li><li data="4" style="display:none;"><img src="index_files/1520503964283.jpg"></li><li data="4" style="display:none;"><img src="index_files/1520503649262.jpg"></li><li data="4" style="display:none;"><img src="index_files/1519551394146.jpg"></li><li data="4" style="display:none;"><img src="index_files/1519551323928.jpg"></li><li data="4" style="display:none;"><img src="index_files/1518334790063.jpg"></li><li data="4" style="display:none;"><img src="index_files/1518334744489.jpg"></li><li data="7" style="display:none;"><img src="index_files/1518334559991.jpg"></li><li data="2" style="display:none;"><img src="index_files/1510017287591.jpg"></li><li data="4" style="display:none;"><img src="index_files/1510739397798.jpg"></li><li data="4" style="display:none;"><img src="index_files/1512377744716.jpg"></li><li data="4" style="display:none;"><img src="index_files/1512382088784.jpg"></li><li data="4" style="display:none;"><img src="index_files/1512382787270.jpg"></li><li data="4" style="display:none;"><img src="index_files/1512382804622.jpg"></li><li data="4" style="display:none;"><img src="index_files/1512382818692.jpg"></li><li data="4" style="display:none;"><img src="index_files/1512385784649.jpg"></li><li data="4" style="display:none;"><img src="index_files/1512385792417.jpg"></li><li data="4" style="display:none;"><img src="index_files/1512385799948.jpg"></li><li data="4" style="display:none;"><img src="index_files/1512385807390.jpg"></li><li data="4" style="display:none;"><img src="index_files/1512385818457.jpg"></li><li data="4" style="display:none;"><img src="index_files/1512385829418.jpg"></li><li data="4" style="display:none;"><img src="index_files/1516681415491.jpg"></li><li data="4" style="display:none;"><img src="index_files/1516681452539.jpg"></li><li data="4" style="display:none;"><img src="index_files/1516681473365.jpg"></li><li data="4" style="display:none;"><img src="index_files/1516681491709.jpg"></li><li data="5" style="display:none;"><img src="index_files/1510017514208.jpg"></li><li data="5" style="display:none;"><img src="index_files/1510017504906.jpg"></li><li data="5" style="display:none;"><img src="index_files/1510017492185.jpg"></li><li data="5" style="display:none;"><img src="index_files/1510017483429.jpg"></li><li data="5" style="display:none;"><img src="index_files/1509962840765.jpg"></li><li data="5" style="display:none;"><img src="index_files/1509962454482.jpg"></li><li data="5" style="display:none;"><img src="index_files/1509962362093.jpg"></li><li data="5" style="display:none;"><img src="index_files/1509962303021.jpg"></li><li data="4" style="display:none;"><img src="index_files/1516681509248.jpg"></li><li data="4" style="display:none;"><img src="index_files/1516681524204.jpg"></li><li data="1"><img src="index_files/1515559562538.jpg"></li><li data="4" style="display:none;"><img src="index_files/1509962678537.jpg"></li><li data="4" style="display:none;"><img src="index_files/1509962687085.jpg"></li><li data="4" style="display:none;"><img src="index_files/1510017464426.jpg"></li><li data="3" style="display:none;"><img src="index_files/1509962618596.jpg"></li><li data="3" style="display:none;"><img src="index_files/1509962625976.jpg"></li><li data="3" style="display:none;"><img src="index_files/1509962633204.jpg"></li><li data="3" style="display:none;"><img src="index_files/1510017529010.jpg"></li><li data="3" style="display:none;"><img src="index_files/1510017537307.jpg"></li><li data="6" style="display:none;"><img src="index_files/1510017455284.jpg"></li><li data="6" style="display:none;"><img src="index_files/1509962799730.jpg"></li><li data="6" style="display:none;"><img src="index_files/1509962792778.jpg"></li><li data="6" style="display:none;"><img src="index_files/1509962785870.jpg"></li><li data="6" style="display:none;"><img src="index_files/1509962779128.jpg"></li><li data="3" style="display:none;"><img src="index_files/1510017546219.jpg"></li><li data="3" style="display:none;"><img src="index_files/1510017554445.jpg"></li><li data="2" style="display:none;"><img src="index_files/1509962416407.jpg"></li><li data="2" style="display:none;"><img src="index_files/1509962423462.jpg"></li><li data="2" style="display:none;"><img src="index_files/1509962431313.jpg"></li><li data="2" style="display:none;"><img src="index_files/1510017277206.jpg"></li><li data="4" style="display:none;"><img src="index_files/1509962670316.jpg"></li><li data="1"><img src="index_files/1510103961339.jpg"></li><li data="1"><img src="index_files/1510103972024.jpg"></li><li data="1"><img src="index_files/1510103982747.jpg"></li><li data="1"><img src="index_files/1510103996087.jpg"></li><li data="1"><img src="index_files/1510104003557.jpg"></li><li data="1"><img src="index_files/1510104060888.jpg"></li><li data="1"><img src="index_files/1510104069799.jpg"></li><li data="1"><img src="index_files/1510104084385.jpg"></li><li data="1"><img src="index_files/1510017307655.jpg"></li><li data="1"><img src="index_files/1510017318302.jpg"></li><li data="1"><img src="index_files/1510017375068.jpg"></li><li data="1"><img src="index_files/1510017395387.jpg"></li><li data="1"><img src="index_files/1510017417487.jpg"></li><li data="1"><img src="index_files/1510017426398.jpg"></li><li data="1"><img src="index_files/1510017435578.jpg"></li><li data="1"><img src="index_files/1510017447038.jpg"></li><li data="1"><img src="index_files/1514545186010.jpg"></li><li data="1"><img src="index_files/1514545194489.jpg"></li><li data="1"><img src="index_files/1514545202223.jpg"></li><li data="1"><img src="index_files/1515559401317.jpg"></li><li data="1"><img src="index_files/1515559418458.jpg"></li><li data="1"><img src="index_files/1515559432107.jpg"></li><li data="1"><img src="index_files/1515559449841.jpg"></li><li data="4" style="display:none;"><img src="index_files/1510017473356.jpg"></li><li data="7" style="display:none;"><img src="index_files/1516843752132.jpg"></li><li data="7" style="display:none;"><img src="index_files/1515635691911.jpg"></li><li data="7" style="display:none;"><img src="index_files/1515635680529.jpg"></li><li data="7" style="display:none;"><img src="index_files/1515635669848.jpg"></li><li data="7" style="display:none;"><img src="index_files/1515635660848.jpg"></li><li data="7" style="display:none;"><img src="index_files/1515635651193.jpg"></li><li data="7" style="display:none;"><img src="index_files/1515635639907.jpg"></li><li data="7" style="display:none;"><img src="index_files/1515635627609.jpg"></li><li data="7" style="display:none;"><img src="index_files/1515635609078.jpg"></li><li data="7" style="display:none;"><img src="index_files/1515559201207.jpg"></li><li data="7" style="display:none;"><img src="index_files/1515559032137.jpg"></li><li data="7" style="display:none;"><img src="index_files/1514510281894.jpg"></li><li data="7" style="display:none;"><img src="index_files/1514510273514.jpg"></li><li data="7" style="display:none;"><img src="index_files/1514510259188.jpg"></li><li data="7" style="display:none;"><img src="index_files/1514510248343.jpg"></li><li data="7" style="display:none;"><img src="index_files/1510017714035.jpg"></li><li data="7" style="display:none;"><img src="index_files/1510017248398.jpg"></li><li data="7" style="display:none;"><img src="index_files/1509962346597.jpg"></li><li data="1"><img src="index_files/1515559461959.jpg"></li><li data="1"><img src="index_files/1515559475271.jpg"></li><li data="1"><img src="index_files/1515559487960.jpg"></li><li data="1"><img src="index_files/1515559500002.jpg"></li><li data="1"><img src="index_files/1515559513513.jpg"></li><li data="1"><img src="index_files/1515559525186.jpg"></li><li data="1"><img src="index_files/1515559537880.jpg"></li><li data="1"><img src="index_files/1515559550991.jpg"></li><li data="1"><img src="index_files/1515640395792.jpg"></li></ul>
+		</div>
+		<div class="iundustry_text_list_bj" style="width: 360px;">
+			<ul class="iundustry_text_list" style="pointer-events: auto; transition-property: transform; transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px); width: 7.63rem;">
+
+			<li class="iundustry_text_list_active" data="1">教育</li><li data="2">健身</li><li data="3">娱乐</li><li data="4">节日</li><li data="5">生活</li><li data="6">美食</li><li data="7">其他</li></ul>
+		</div>
+	</div>
+
+
+	<!--标题-->
+	<div class="title">
+		<div class="modify_title">
+			<i></i>更换标题</div>
+		<textarea class="title_text kj_color" maxlength="30" id="pt_title" style="border: 1px dashed rgb(241, 145, 73); color: rgb(27, 27, 27); font-size: 0.4rem;">思远培训班火热开售，限时秒杀，只要1元！</textarea>
+		<em class="pt_em">包括标点符号最多30字</em>
+	</div>
+
+
+
+	<!--更换标题-->
+	<div class="layer_modify_title">
+		<label class="layer_modify_title_text">更&nbsp;换&nbsp;标&nbsp;题</label>
+		<ul class="layer_modify_title_list">
+
+		<li data="1">逆天了，**中国黄金老板大放血，足金手镯66元秒杀到手！</li><li data="2">双十二大特惠，**100元陶艺课，秒杀价12.1元，仅限12份！</li><li data="3">健身瑜伽馆钜惠庆周年，豪礼来答谢，1元秒杀健身月卡！</li><li data="4">疯狂秒杀，**画室培训课程迎来价格寒潮，千万别错过！</li><li data="5">****一折“惠”战，让秒杀带你体验旧物价！</li><li data="6" style="display: none;">价格大放水，秒杀送实惠！**1元秒杀啦！</li><li data="7" style="display: none;">**机构让你一次杀个够，分秒必争！1元购！</li><li data="8" style="display: none;">谁是秒杀王？抢的到才是真便宜！**邀你来秒杀！</li><li data="9" style="display: none;">**都已经是低到这个价了，快来看看吧！</li><li data="10" style="display: none;">**特价秒杀，玩的是心跳，抢到是赚到！</li></ul>
+		<div class="layer_modify_btn">
+			<ul>
+				<li id="layer_modify_close">取消</li>
+				<li id="layer_modify_other">换一批</li>
+				<li id="layer_modify_clk" data="">确认</li>
+			</ul>
+		</div>
+	</div>
+
+	<!--倒计时-->
+	<div class="time">
+		<div class="time_content" style="color: rgb(27, 27, 27);">
+			<e class="all_tips" style="float: none;margin-top: -0.1rem;display: inline-block;">*</e>秒杀开始时间
+			<div class="time_style demo-test-datetime" id="end_time" data-lcalendar="2017-10-1,2099-12-31" data="" style="border: 1px dashed rgb(241, 145, 73); color: rgb(27, 27, 27);"></div>
+		</div>
+		<em>如有报名者，只可延后;秒杀开始后，不可修改</em>
+	</div>
+
+	<div class="ms_xs_content">
+		<dvi class="time_content" style="color: rgb(27, 27, 27);">
+			<span style="float: left;">
+				<e class="all_tips" style="float: none;margin-top: -0.1rem;display: inline-block;">*</e>秒杀限时</span>
+			<input type="number" id="ms_xs" class="ms_xs_input" style=" border: 1px dashed rgb(241, 145, 73); color: rgb(27, 27, 27);">
+			<span style="padding-left: .1rem;float: left;">分钟</span>
+			<em class="ms_xs_em" style="float: left;">秒杀开始后，不可修改</em>
+		</dvi>
+	</div>
+
+	<!--主体信息-->
+	<label class="content_label" id="main_content_title" style="margin-top: 0.2rem; color: rgb(255, 255, 255); font-size: 0.32rem; background: url(&quot;https://oss.laidiannet.com/theme/dianQSmallTitle.png&quot;) no-repeat; width: 4.4rem; height: 1.04rem; line-height: 1.04rem; top: 0.2rem; z-index: 1;">
+		<span>秒杀商品</span>
+	</label>
+	<div class="bargain_content" style="overflow: hidden; height: auto !important; border-radius: 10px; border: none; background-color: rgb(255, 255, 255);">
+		<!--商品原价-->
+		<div class="ms_content">
+			<span class="ms_content_span">
+				<e class="all_tips">∗</e>商品原价:</span>
+			<input class="ms_content_input" type="number" id="ms_yj">
+			<span class="ms_content_span_end font_left_1">元</span>
+			<em class="ms_content_em">如有报名者，不可修改</em>
+		</div>
+
+		<!--秒杀份数-->
+		<div class="ms_content">
+			<span class="ms_content_span">
+				<e class="all_tips">∗</e>秒杀份数:</span>
+			<input class="ms_content_input" type="number" id="ms_fs">
+			<em class="ms_content_em">如有报名者，不可修改</em>
+		</div>
+
+		<!--秒杀形式-->
+		<div class="ms_content_xs_chose">
+			<label>秒杀形式:</label>
+			<em class="ms_content_em" style="width:1rem;height:2rem;padding-left: .2rem;line-height: .3rem;">有报名者不可修改</em>
+			<ul id="ms_ul" style="float: left;margin-top: -.35rem;margin-left: .1rem;">
+				<li>
+					<div class="radios radios_checked" data-name="mannum" data-index="0"></div>
+					<span class="ms_content_chose_span">报名秒杀</span>
+					<em class="ms_content_em" style="padding-left: .7rem;text-align: left;">报名即可获取秒杀资格，可以设置报名人数越多，秒杀价越低</em>
+				</li>
+				<li style="margin-top: .1rem;">
+					<div class="radios" data-name="mannum" data-index="1"></div>
+					<span class="ms_content_chose_span">砍价秒杀</span>
+					<em class="ms_content_em" style="padding-left: .7rem;text-align: left;">砍价形式的秒杀活动，砍到秒杀价后即可获取秒杀资格</em>
+				</li>
+			</ul>
+		</div>
+
+
+		<!--报名秒杀-->
+		<div class="ms_bm_content">
+			<ul class="jl_content_add_lis">
+				<li class="finah">
+					<span class="jl_content_span">
+						<e class="all_tips" style="line-height: .25rem;">∗</e>报名人数</span>
+					<input class="content_input pt_input_border num" type="number" value="">
+					<span class="jl_content_add_li_span_2">人</span>
+					<span class="jl_content_add_li_span_3">
+						<e class="all_tips" style="line-height: .25rem;">∗</e>价格</span>
+					<input class="content_input pt_input_border successPrice" type="number" value="">
+					<span class="jl_content_add_li_span_2">元</span>
+					<i style="display: none;"></i>
+				</li>
+
+			</ul>
+			<div class="jl_content_add_btn" id="add_li_pt">
+				<span class="content_span">
+					<img src="index_files/jl_add_li-bf00c594c5.png">添加(最多5个阶梯)</span>
+			</div>
+		</div>
+
+		<!--砍价秒杀-->
+		<div id="kj_ms" style="display: none;">
+			<div class="ms_content">
+				<span class="ms_content_span">
+					<e class="all_tips">∗</e>秒杀价:</span>
+				<input class="ms_content_input" type="number" id="ms_msj">
+				<span class="ms_content_span_end font_left_1">元</span>
+				<em class="ms_content_em"></em>
+			</div>
+			<div class="ms_content">
+				<span class="ms_content_span">
+					<e class="all_tips">∗</e>需砍价:</span>
+				<input class="ms_content_input" type="number" id="ms_xkj">
+				<span class="ms_content_span_end font_left_1">次</span>
+				<em class="ms_content_em"></em>
+			</div>
+			<div class="ms_content">
+				<span class="ms_content_span">报名者每隔:</span>
+				<input class="ms_content_input" style="width: 1.5rem;" type="number" max="24" min="1" id="kj_jg" onkeyup="this.value=this.value.replace(/\D/g,&#39;&#39;)" onafterpaste="this.value=this.value.replace(/\D/g,&#39;&#39;)">
+				<span class="ms_content_span_end font_left_1">小时，可再次给自己砍价</span>
+				<em class="ms_content_em" style="width: 93%;text-align:left;">可以设置每个报名者在活动时间内多次给自己砍价；如不设置，则默认报名者仅一次给自己砍价的机会；帮砍者仅一次机会。</em>
+			</div>
+		</div>
+
+
+		<div class="ms_content" style="margin-bottom: 0px;">
+			<ul class="bm_content">
+				<li style="margin-bottom: .6rem;">
+					<span style="padding-left:0px ;">付费方式:</span>
+					<div class="radios radios_checked" data-name="paynum"></div>
+					<span>线下</span>
+					<div class="radios" data-name="paynum"></div>
+					<span>线上预付</span>
+					<input type="number" id="needPriceRules" class="input_text">
+					<span class="bm_input_text" id="needPriceRules_span">元</span>
+					<em style="padding-left:0px ;padding-right:10px ;">线上预付更容易促成最终消费，但提现需收取1.5%手续费，请合理设置</em>
+				</li>
+			</ul>
+		</div>
+		<div class="ms_content" style="height:auto;margin-bottom: .5rem;">
+			<span class="ms_content_span">报名者优惠:</span>
+			<em class="ms_content_em" style="clear: none;margin-top: .15rem;">（选填）</em>
+			<textarea class="ms_content_textarea" type="text" id="ms_content_textarea" style="clear: both; margin-left: 0px; height: 30px;"></textarea>
+		</div>
+	</div>
+
+	<!--liuya - 活动优惠 （优惠券）--><!--coupon-->
+	<label class="content_label_2 hz_small_title_bac" style="background: url(&quot;https://oss.laidiannet.com/theme/dianQSmallTitle.png&quot;) no-repeat; width: 4.4rem; height: 1.04rem; line-height: 1.04rem; top: 0.3rem; z-index: 1;">
+		<input type="text" value="活动优惠" id="get_coupon_title" maxlength="6" style="width: 2rem; color: rgb(255, 255, 255);">
+		<span>小标题最多6个字</span>
+	</label>
+	<div class="lab_content bargain_get hz_content_style" style="min-height: 0.6rem; border-radius: 10px; border: none; background-color: rgb(255, 255, 255); box-shadow: rgb(151, 22, 255) 0px 0px 4px 0px inset; position: relative; z-index: 0; margin-top: 0.32rem; padding-top: 0.12rem;"><img src="https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&amp;themeId=1492&amp;templateConfId=114" class="imgicon1" style="display: none; position: absolute; width: auto; margin: 0px; top: 0px; left: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;"><img src="https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&amp;themeId=1492&amp;templateConfId=114" class="imgicon2" style="display: none; position: absolute; width: auto; margin: 0px; top: 0px; right: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;"><img src="index_files/dianQIcon.png" class="imgicon3" style="position: absolute; width: auto; margin: 0px; bottom: 0px; right: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;"><img src="https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&amp;themeId=1492&amp;templateConfId=114" class="imgicon4" style="display: none; position: absolute; width: auto; margin: 0px; bottom: 0px; left: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;">
+		<ul class="textMark">
+			<li class="textMark-item textMarkIndex">
+				<div class="textMark_index">1</div>
+				<div class="textMark_input" contenteditable="true" placeholder="优惠内容（最多50个字）">活动结束前，到店顾客都将获得一份惊喜小礼包</div>
+				<ul class="textMark_handle">
+					<li class="tHandleBottom">
+						<img src="index_files/bottom-5741e0b183.png" alt="">
+						<span>向下</span>
+					</li>
+					<li class="tHandleTop" style="display: none;">
+						<img src="index_files/top-7c2a80f48f.png" alt="">
+						<span>向上</span>
+					</li>
+					<li class="tHandleDel">
+						<img src="index_files/del-81b221e3e9.png" alt="">
+						<span>删除</span>
+					</li>
+				</ul>
+			</li>
+			<li class="textMark-item textMarkIndex">
+				<div class="textMark_index">2</div>
+				<div class="textMark_input" contenteditable="true" placeholder="优惠内容（最多50个字）"></div>
+				<ul class="textMark_handle">
+					<li class="tHandleBottom" style="display: none;">
+						<img src="index_files/bottom-5741e0b183.png" alt="">
+						<span>向下</span>
+					</li>
+					<li class="tHandleTop">
+						<img src="index_files/top-7c2a80f48f.png" alt="">
+						<span>向上</span>
+					</li>
+					<li class="tHandleDel">
+						<img src="index_files/del-81b221e3e9.png" alt="">
+						<span>删除</span>
+					</li>
+				</ul>
+			</li>
+		</ul>
+		<ul class="textMark-add_wrap">
+			<li id="addConponText">
+				<img src="index_files/add_pic_content-198319f166.png" alt="" class="textMark-add_one">
+				<div class="textMark-add_two">添加文字</div>
+				<div class="textMark-add_three">（最多6个）</div>
+			</li>
+			<li id="addConponImg" data-ishavecoupon="false" data-couponnum="0">
+				<img src="index_files/add_pic_content-198319f166.png" alt="" class="textMark-add_one">
+				<div class="textMark-add_two">添加优惠券</div>
+				<div class="textMark-add_three">（最多6个）</div>
+			</li>
+		</ul>
+	</div>
+	
+
+	<!--商品描述-->
+	<label class="content_label" style="color: rgb(255, 255, 255); font-size: 0.32rem; background: url(&quot;https://oss.laidiannet.com/theme/dianQSmallTitle.png&quot;) no-repeat; width: 4.4rem; height: 1.04rem; line-height: 1.04rem; top: 0.3rem; z-index: 1;">
+		<span>商品描述</span>
+	</label>
+	<div class="lab_content" id="goodsDesc" style="border-radius: 10px; border: none; background-color: rgb(255, 255, 255); box-shadow: rgb(151, 22, 255) 0px 0px 4px 0px inset; position: relative; z-index: 0; margin-top: 0.32rem; padding-top: 0.12rem;"><img src="https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&amp;themeId=1492&amp;templateConfId=114" class="imgicon1" style="display: none; position: absolute; width: auto; margin: 0px; top: 0px; left: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;"><img src="https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&amp;themeId=1492&amp;templateConfId=114" class="imgicon2" style="display: none; position: absolute; width: auto; margin: 0px; top: 0px; right: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;"><img src="index_files/dianQIcon.png" class="imgicon3" style="position: absolute; width: auto; margin: 0px; bottom: 0px; right: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;"><img src="https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&amp;themeId=1492&amp;templateConfId=114" class="imgicon4" style="display: none; position: absolute; width: auto; margin: 0px; bottom: 0px; left: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;">
+		<textarea class="content_label_text" maxlength="800" placeholder="(800字以内)" id="description_text" style="height: 1.85rem;">思远培训班特色精品课程，适用初中作文、小学英语、小学数学三选一，1个月共4次课。
+课程可选时间：周六至周日15:00-17:00
+所有课程需要提前一天预约</textarea>
+		<!--<div class="content_label_text_tips">(800字以内)</div>-->
+		<input type="file" style="display:none;">
+		<div class="img_upload" id="bargain_describe_img">
+			<img src="index_files/add_pic-39a60d1b35.png">
+			<span>添加图片</span>
+			<em>(最多添加4张图片)</em>
+		</div>
+		<div class="img_upload_y">
+			<img src="https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&amp;themeId=1492&amp;templateConfId=114" id="description_img">
+			<em>
+				<i></i>删除</em>
+		</div>
+	</div>
+
+	<!--活动须知-->
+	<label class="content_label" style="color: rgb(255, 255, 255); font-size: 0.32rem; background: url(&quot;https://oss.laidiannet.com/theme/dianQSmallTitle.png&quot;) no-repeat; width: 4.4rem; height: 1.04rem; line-height: 1.04rem; top: 0.3rem; z-index: 1;">
+		<span>活动规则</span>
+	</label>
+	<div class="lab_content bargain_get" style="border-radius: 10px; border: none; background-color: rgb(255, 255, 255); box-shadow: rgb(151, 22, 255) 0px 0px 4px 0px inset; position: relative; z-index: 0; margin-top: 0.32rem; padding-top: 0.12rem;"><img src="https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&amp;themeId=1492&amp;templateConfId=114" class="imgicon1" style="display: none; position: absolute; width: auto; margin: 0px; top: 0px; left: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;"><img src="https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&amp;themeId=1492&amp;templateConfId=114" class="imgicon2" style="display: none; position: absolute; width: auto; margin: 0px; top: 0px; right: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;"><img src="index_files/dianQIcon.png" class="imgicon3" style="position: absolute; width: auto; margin: 0px; bottom: 0px; right: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;"><img src="https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&amp;themeId=1492&amp;templateConfId=114" class="imgicon4" style="display: none; position: absolute; width: auto; margin: 0px; bottom: 0px; left: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;">
+		<textarea class="content_label_text bargain_get_text" id="get_rule_text" style="height: 160px;">秒杀价：报名人数越多，秒杀价格越低，如秒杀开始前未达到第一档，则无法达到秒杀要求。
+1、点击“我要报名”获取秒杀资格。
+2、将活动发送给好友一起参加，人越多秒杀价越低！
+3、担心抢不到？可以邀请好友帮抢哦！人越多抢到的几率越大！
+4、秒杀倒计时结束后准时开抢，记得提前做准备！
+5、成功抢到秒杀商品的用户，马上联系商家领取吧！
+6、活动最终解释权归商家所有，与来店吧无关。
+</textarea>
+	</div>
+
+	<!--领取信息-->
+	<label class="content_label_2" style="background: url(&quot;https://oss.laidiannet.com/theme/dianQSmallTitle.png&quot;) no-repeat; width: 4.4rem; height: 1.04rem; line-height: 1.04rem; top: 0.3rem; z-index: 1;">
+		<input type="text" name="" id="get_information_title" value="领取信息" maxlength="6" style="width: 2rem; color: rgb(255, 255, 255);">
+		<span>小标题最多6字</span>
+	</label>
+	<div class="lab_content bargain_get" style="border-radius: 10px; border: none; background-color: rgb(255, 255, 255); box-shadow: rgb(151, 22, 255) 0px 0px 4px 0px inset; position: relative; z-index: 0; margin-top: 0.32rem; padding-top: 0.12rem;"><img src="https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&amp;themeId=1492&amp;templateConfId=114" class="imgicon1" style="display: none; position: absolute; width: auto; margin: 0px; top: 0px; left: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;"><img src="https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&amp;themeId=1492&amp;templateConfId=114" class="imgicon2" style="display: none; position: absolute; width: auto; margin: 0px; top: 0px; right: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;"><img src="index_files/dianQIcon.png" class="imgicon3" style="position: absolute; width: auto; margin: 0px; bottom: 0px; right: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;"><img src="https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&amp;themeId=1492&amp;templateConfId=114" class="imgicon4" style="display: none; position: absolute; width: auto; margin: 0px; bottom: 0px; left: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;">
+		<textarea class="content_label_text bargain_get_text" id="get_information_text" style="height:1.64rem;">领取时间：
+领取地址：
+联系方式：13370777007</textarea>
+	</div>
+
+	<!--主办方介绍-->
+
+	<label class="content_label_2" style="background: url(&quot;https://oss.laidiannet.com/theme/dianQSmallTitle.png&quot;) no-repeat; width: 4.4rem; height: 1.04rem; line-height: 1.04rem; top: 0.3rem; z-index: 1;">
+		<input type="text" name="" id="sellerIntroduceTitle" value="商家介绍" maxlength="6" style="width: 2rem; color: rgb(255, 255, 255);">
+		<span>小标题最多6字</span>
+	</label>
+	<div class="bargain_introduce " style="border-radius: 10px; border: none; background-color: rgb(255, 255, 255); box-shadow: rgb(151, 22, 255) 0px 0px 4px 0px inset; position: relative; z-index: 0; margin-top: 0.32rem; padding-top: 0.12rem;"><img src="https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&amp;themeId=1492&amp;templateConfId=114" class="imgicon1" style="display: none; position: absolute; width: auto; margin: 0px; top: 0px; left: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;"><img src="https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&amp;themeId=1492&amp;templateConfId=114" class="imgicon2" style="display: none; position: absolute; width: auto; margin: 0px; top: 0px; right: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;"><img src="index_files/dianQIcon.png" class="imgicon3" style="position: absolute; width: auto; margin: 0px; bottom: 0px; right: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;"><img src="https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&amp;themeId=1492&amp;templateConfId=114" class="imgicon4" style="display: none; position: absolute; width: auto; margin: 0px; bottom: 0px; left: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;">
+		<div class="add_content"></div>
+		<ul class="bargain_introduce_tab">
+			<li id="add_text">
+				<i class="add_text_icon"></i>
+				<span>添加文本</span>
+			</li>
+			<li id="add_pic">
+				<i class="add_pic_icon"></i>
+				<span>添加图片</span>
+				<em>最多添加6张</em>
+			</li>
+			<li id="add_video">
+				<i class="add_video_icon"></i>
+				<span>添加视频</span>
+			</li>
+		</ul>
+	</div>
+
+
+
+
+
+	<!--咨询热线-->
+	<label class="content_label" style="color: rgb(255, 255, 255); font-size: 0.32rem; background: url(&quot;https://oss.laidiannet.com/theme/dianQSmallTitle.png&quot;) no-repeat; width: 4.4rem; height: 1.04rem; line-height: 1.04rem; top: 0.3rem; z-index: 1;">
+		<span>联系方式</span>
+	</label>
+	<div class="lab_content" style="border-radius: 10px; border: none; background-color: rgb(255, 255, 255); box-shadow: rgb(151, 22, 255) 0px 0px 4px 0px inset; position: relative; z-index: 0; margin-top: 0.32rem; padding-top: 0.12rem;"><img src="https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&amp;themeId=1492&amp;templateConfId=114" class="imgicon1" style="display: none; position: absolute; width: auto; margin: 0px; top: 0px; left: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;"><img src="https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&amp;themeId=1492&amp;templateConfId=114" class="imgicon2" style="display: none; position: absolute; width: auto; margin: 0px; top: 0px; right: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;"><img src="index_files/dianQIcon.png" class="imgicon3" style="position: absolute; width: auto; margin: 0px; bottom: 0px; right: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;"><img src="https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&amp;themeId=1492&amp;templateConfId=114" class="imgicon4" style="display: none; position: absolute; width: auto; margin: 0px; bottom: 0px; left: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;">
+		<div class="tel_content">
+			<span class="content_span tel_span">
+				<e class="all_tips">∗</e>商家姓名：</span>
+			<input class="content_input tel_input" style="width: 4.24rem;" type="text" id="consultation_name">
+		</div>
+		<em class=" tel_em"></em>
+		<div class="tel_content">
+			<span class="content_span tel_span">
+				<e class="all_tips">∗</e>咨询热线：</span>
+			<input class="content_input tel_input" style="width: 4.24rem;" type="tel" id="consultation_tel">
+		</div>
+		<em class=" tel_em"></em>
+		<div class="tel_content">
+			<span class="content_span tel_span">商家地址：</span>
+			<div class="content_input tel_input" id="consultation_addAds" style="text-align:left;"></div>
+			<img src="index_files/pt_close-e2310ca04a.png" alt="" class="edit_pos_icon" style="display: none;">
+		</div>
+		<em class=" tel_em"></em>
+		<div class="tel_content">
+			<span class="content_span tel_span">详细地址：</span>
+			<div class="content_input tel_input" id="consultation_detailsAds" contenteditable="true"></div>
+		</div>
+		<em class=" tel_em"></em>
+	</div>
+
+	<div class="srcoll_top" style="opacity: 0;">
+		<img src="index_files/to_top-bb18f0d3c2.png">
+	</div>
+
+	<!--信息收集-->
+	<label class="content_label" style="color: rgb(255, 255, 255); font-size: 0.32rem; background: url(&quot;https://oss.laidiannet.com/theme/dianQSmallTitle.png&quot;) no-repeat; width: 4.4rem; height: 1.04rem; line-height: 1.04rem; top: 0.3rem; z-index: 1;">
+		<span>信息收集</span>
+	</label>
+	<div class="lab_content tel_margin " style="border-radius: 10px; border: none; background-color: rgb(255, 255, 255); box-shadow: rgb(151, 22, 255) 0px 0px 4px 0px inset; position: relative; z-index: 0; margin-top: 0.32rem; padding-top: 0.12rem;"><img src="https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&amp;themeId=1492&amp;templateConfId=114" class="imgicon1" style="display: none; position: absolute; width: auto; margin: 0px; top: 0px; left: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;"><img src="https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&amp;themeId=1492&amp;templateConfId=114" class="imgicon2" style="display: none; position: absolute; width: auto; margin: 0px; top: 0px; right: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;"><img src="index_files/dianQIcon.png" class="imgicon3" style="position: absolute; width: auto; margin: 0px; bottom: 0px; right: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;"><img src="https://wx.laidianba.net/static/wx/kj/ms_edit-3bf493c758.html?templateId=142&amp;themeId=1492&amp;templateConfId=114" class="imgicon4" style="display: none; position: absolute; width: auto; margin: 0px; bottom: 0px; left: 0px; z-index: 1; transform: scale(0.5); transform-origin: right bottom 0px;">
+		<label class="bm_em">自定义项为空则不显示，最多可填6个字。如有用户报名，此内容不可做任何修改。</label>
+		<ul class="bm_list_info">
+			<li>
+				<input type="text" value="姓名" disabled="disabled">
+				<img src="index_files/lock-e74d5b0aea.png">
+				<div class="bm_lock_checked"></div>
+				<span>必填项</span>
+			</li>
+			<li>
+				<input type="text" value="手机号" disabled="disabled">
+				<img src="index_files/lock-e74d5b0aea.png">
+				<div class="bm_lock_checked"></div>
+				<span>必填项</span>
+			</li>
+			<li>
+				<input type="text" value="" maxlength="6" placeholder="信息项名称">
+				<div class="bm_lock"></div>
+				<span>必填项</span>
+			</li>
+			<li>
+				<input type="text" value="" maxlength="6" placeholder="信息项名称">
+				<div class="bm_lock"></div>
+				<span>必填项</span>
+			</li>
+			<li>
+				<input type="text" value="" maxlength="6" placeholder="信息项名称">
+				<div class="bm_lock"></div>
+				<span>必填项</span>
+			</li>
+		</ul>
+	</div>
+
+
+	<div class="bargain_btn">
+		<ul>
+			<li id="pt_preview">预览</li>
+			<li id="pt_save">保存</li>
+		</ul>
+	<div class="editPageCmsPayWarn"><a href="https://wx.laidianba.net/static/wx/pay-97b49c8ce8.html"><p id="CmsPayWarnCon">成为VIP会员，浏览量不再受限！</p><img src="index_files/merImg2-423922a392.png" alt="">去购买</a></div></div>
+
+
+	<div class="layer_bj">
+	</div>
+	<!--PC端时间插件-->
+	<div class="settings" style="display:none;">
+		<select name="demo" id="demo">
+			<option value="date">日期</option>
+		</select>
+	</div>
+	
+	<!-- liuya - 优惠券选择弹出层 --><!--coupon-->
+	<div class="coupon-Pop_select animated">
+		<ul class="coupon-Pop_btn">
+			<li id="couponChanel">取消</li>
+			<li>选择优惠券</li>
+			<li id="couponSure">确定</li>
+		</ul>
+		<div class="coupon-Pop_container">
+			<ul class="coupon-Pop_scroll" style="pointer-events: auto; transition-property: transform; transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px); width: 0px;">
+
+			</ul>
+		</div>
+	</div>
+<script type="text/javascript" src="index_files/common-95245b4cd3.js"></script>
+<script src="index_files/zepto-7645315506.js"></script>
+<script type="text/javascript" src="index_files/jquery-ddb84c1587.min.js"></script>
+<script src="index_files/jweixin-1-3167c23e94.2.0.js"></script>
+<script type="text/javascript" src="index_files/layer-010e17209f.js"></script>
+<script type="text/javascript" src="index_files/LCalendar-d22c14cbed.js"></script>
+<script type="text/javascript" src="index_files/pc_time-0e92ceb73a.js"></script>
+<!-- 刘亚 -- 背景动效和音乐 -->
+<script src="index_files/picker-ec361e876a.min.js"></script>
+<script src="index_files/drop-1cbc14f4b8.js"></script>
+<!-- ****************************************** -->
+<!-- liuya - 优惠券的相关方法 --><!--coupon-->
+<script src="index_files/bscroll-fa2d64892a.min.js"></script>
+<script type="text/javascript" src="index_files/coupon-c1c227ddc5.js" charset="UTF-8"></script>
+<script src="index_files/circleChart-69669c36d3.es5.min.js"></script>
+
+<script src="index_files/bscroll-fa2d64892a.min.js"></script>
+<script type="text/javascript" src="index_files/base-e5ef2b83e1.js"></script>
+<script type="text/javascript" src="index_files/ms_js-9219007046.js"></script>
+<script type="text/javascript" src="index_files/app-d5714a3250.js"></script>
+<script>
+	// 初始化行业头图的滚动对象
+	var scroll_pic = new BScroll('.industry_img_bj', {
+		scrollX: true,
+		scrollY: false,
+		click: true,
+	})
+	var scroll_pic_class = new BScroll('.iundustry_text_list_bj', {
+		scrollX: true,
+		scrollY: false,
+		click: true
+		
+		
+	})
+	$(function () {
+		MonitorAndroidKeyboard();//安卓低版本，保存按钮跟随键盘问题
+		makeExpandingArea(ms_content_textarea);//textarea自动拉伸
+		makeExpandingArea(get_information_text);//textarea自动拉伸
+		makeExpandingArea(description_text);//textarea自动拉伸
+		makeExpandingArea(get_rule_text);
+		setPayWarnForEditPage(); // 活动页催促购买的提示
+		if (/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
+			var calendardatetime = new lCalendar();
+			calendardatetime.init({
+				'trigger': '#end_time',
+				'type': 'datetime'
+			});
+		} else {
+			console.log('进入PC端时间插件');
+			var curr = new Date().getFullYear();
+			var opt = {};
+			opt.date = { preset: 'date' };
+			opt.datetime = { preset: 'datetime' };
+			opt.time = { preset: 'time' };
+			opt.default = {
+				theme: 'android-holo light', //皮肤样式
+				display: 'bottom', //显示方式 
+				mode: 'scroller', //日期选择模式
+				dateFormat: 'yyyy-mm-dd',
+				lang: 'zh',
+				showNow: true,
+				nowText: "今天",
+				stepMinute: 5,
+				startYear: curr - 1, //开始年份
+				endYear: curr + 1 //结束年份
+			};
+			$('.settings').bind('change', function () {
+				var demo = 'datetime';
+				if (!demo.match(/select/i)) {
+					$('.demo-test-' + demo).val('');
+				}
+				$('.demo-test-' + demo).scroller('destroy').scroller($.extend(opt['datetime'], opt['default']));
+
+				$('.demo').hide();
+				$('.demo-' + demo).show();
+			});
+			$('#demo').trigger('change');
+		}
+		//时间控件初始化
+
+		//判断是从“编辑”，“创建”，“复制”页面跳转
+		if (getUrlParam('activityId') == null || getUrlParam('activityId') == 'null') {
+			//获取主题
+			//getActivityTheme(getUrlParam('templateId'), getUrlParam('themeId'), getUrlParam('templateConfId'));
+			getActivityTheme_new(getUrlParam('templateId'), getUrlParam('themeId'), getUrlParam('templateConfId'),'ms_preview_theme');
+			if (sessionStorage.getItem('ms') != '' && sessionStorage.getItem('ms') != null) {
+				if (sessionStorage.getItem('ms_preview_theme') != '' && sessionStorage.getItem('ms_preview_theme') != null) {
+					for (var i = 0; i < $('.banner_mb_tab>div>ul>li').length; i++) {
+						var data_id = $('.banner_mb_tab>div>ul>li').eq(i).attr('data-index');
+						var data = JSON.parse(sessionStorage.getItem('ms_preview_theme'));
+						if (data.themeId == data_id) {
+							$('.banner_mb_tab>div>ul>li').removeClass('banner_mb_tab_img_active');
+							$('.banner_mb_tab>div>ul>li').eq(i).addClass('banner_mb_tab_img_active');
+							$('.banner_mb_tab_qx').attr('data', sessionStorage.getItem('ms_preview_theme'));
+							$('.banner_mb_tab_clk').attr('data-typeid', data.themeTypeId);
+							$('.industry_colse').attr('data', data.headImgUrl);
+							if (JSON.parse(sessionStorage.getItem('ms')).headImg != '') {
+								$('.industry_colse').attr('data', JSON.parse(sessionStorage.getItem('ms')).headImg);
+								$('.banner_mb_tab_clk').attr('data', JSON.parse(sessionStorage.getItem('ms')).headImg);
+							}
+						}
+					}
+				}
+				PreviewBackToEdit(sessionStorage.getItem('ms'));
+			} else {
+				if (sessionStorage.getItem('ms_preview_theme') != '' && sessionStorage.getItem('ms_preview_theme') != null) {
+					for (var i = 0; i < $('.banner_mb_tab>div>ul>li').length; i++) {
+						var data_id = $('.banner_mb_tab>div>ul>li').eq(i).attr('data-index');
+						var data = JSON.parse(sessionStorage.getItem('ms_preview_theme'));
+						if (data.themeId == data_id) {
+							$('.banner_mb_tab>div>ul>li').removeClass('banner_mb_tab_img_active');
+							$('.banner_mb_tab>div>ul>li').eq(i).addClass('banner_mb_tab_img_active');
+							$('.banner_mb_tab_qx').attr('data', sessionStorage.getItem('ms_preview_theme'));
+							$('.banner_mb_tab_clk').attr('data-typeid', data.themeTypeId);
+							$('.industry_colse').attr('data', data.headImgUrl);
+						}
+					}
+					var sess_theme_data = JSON.parse(sessionStorage.getItem('ms_preview_theme'));
+					setTimeout(function () {
+						TiggerThem(sess_theme_data);
+					}, 300);
+
+				}
+				getTelNum($('#get_information_text'), $('#consultation_tel'));
+				getShopDataByAjaxForAct(); // 编辑页如果填写了门店信息，则展示出来
+			}
+			Loading('end');
+		} else {
+			//getActivityTheme(getUrlParam('templateId'), getUrlParam('themeId'), getUrlParam('templateConfId'));
+			getActivityTheme_new(getUrlParam('templateId'), getUrlParam('themeId'), getUrlParam('templateConfId'),'ms_preview_theme');
+			if (getUrlParam('type') == 'copy') {
+				if (sessionStorage.getItem(getUrlParam('activityId')) != null) {
+					PreviewBackToEdit(sessionStorage.getItem(getUrlParam('activityId')));
+				} else {
+					var activityId = getUrlParam('activityId');
+					var data_prams = {
+						"activityId": activityId
+					};
+					$.ajax({
+						type: "post",
+						async: false,
+						url: globalUrl + "/seller/showMsActivity.htm",
+						data: 'params={"data":' + JSON.stringify(data_prams) + '}' + isDebug,
+						success: function (data) {
+							var datas = JSON.parse(data);
+							if (datas.status == 200) {
+								var res = datas.result.data;
+								for (var i = 0; i < $('.banner_mb_tab>div>ul>li').length; i++) {
+									if ($('.banner_mb_tab>div>ul>li').eq(i).attr('data-index') == res.themeInfo.themeId) {
+										$('.banner_mb_tab>div>ul>li').eq(i).addClass('banner_mb_tab_img_active');
+										$('.banner_mb_tab_qx').attr('data', JSON.stringify(res.themeInfo.themedata));
+										$('.banner_mb_tab_clk').attr('data-typeid', res.themeInfo.themeTypeId);
+									}
+								}
+								headImgType = res.headImgType;
+								if (res.headImg == '') {
+									$('#active_kj_banner').prop('src', res.themeInfo.headImgUrl);
+								}
+								if (res.activityType == 81) {
+									if (res.payType == 0) {
+										payType = 0;
+
+										data_prams = {
+											"headImg": res.headImg,
+											"headImgType": res.headImgType,
+											"title": res.title,
+											"startDate": '',
+											"goodsNum": res.goodsNum,
+											"originalPrice": res.originalPrice,
+											"contactPhone": res.contactPhone,
+											"secKillTime": res.secKillTime,
+											"activityType": res.activityType,
+											"teamType": res.teamType,
+											"payType": res.payType,
+											"headImgType":res.headImgType,
+											"prepayPrice": res.prepayPrice,
+											"successPrice": res.successPrice,
+											"needBargin": res.needBargin,
+											"oneselfBarginTime": res.oneselfBarginTime,
+											"themeId": res.themeId,
+											"activityRules": res.activityRules,
+											"enrollBenefit": res.enrollBenefit,
+											/*************刘亚 -- 音乐和特效（保存到session）***************/
+											"animation": res.animation,
+											"music": res.music,
+											/******************************/
+											"couponInfo": res.couponInfo, // 优惠券信息//<!--coupon-->
+											"goodsDesc": {                   //商品描述
+												"goodsDescInfo": res.goodsDesc.goodsDescInfo,
+												"goodsDescPic": res.goodsDesc.goodsDescPic          //商品描述照片
+											},
+											"getInfo": {                                    //领取信息
+												"getInfoTitle": res.getInfo.getInfoTitle,           //领取信息标题
+												"getInfoDetail": res.getInfo.getInfoDetail
+											},
+											"sellerInfo": {                     //商家介绍
+												"title": res.sellerInfo.title,          //商家介绍标题
+												"sellerInfoDetail": res.sellerInfo.sellerInfoDetail
+											},
+											"infoCollect": res.infoCollect,
+											"addressInfo": res.addressInfo,
+											"themedata": res.themeInfo
+										}
+									} else {
+										payType = 1;
+
+										data_prams = {
+											"headImg": res.headImg,
+											"headImgType": res.headImgType,
+											"title": res.title,
+											"startDate": '',
+											"goodsNum": res.goodsNum,
+											"originalPrice": res.originalPrice,
+											"contactPhone": res.contactPhone,
+											"secKillTime": res.secKillTime,
+											"activityType": res.activityType,
+											"teamType": res.teamType,
+											"payType": res.payType,
+											"prepayPrice": res.prepayPrice,
+											"successPrice": res.successPrice,
+											"needBargin": res.needBargin,
+											"headImgType":res.headImgType,
+											"oneselfBarginTime": res.oneselfBarginTime,
+											"themeId": res.themeId,
+											"activityRules": res.activityRules,
+											"enrollBenefit": res.enrollBenefit,
+											/*************刘亚 -- 音乐和特效（保存到session）***************/
+											"animation": res.animation,
+											"music": res.music,
+											/******************************/
+											"couponInfo": res.couponInfo, // 优惠券信息//<!--coupon-->
+											"goodsDesc": {                   //商品描述
+												"goodsDescInfo": res.goodsDesc.goodsDescInfo,
+												"goodsDescPic": res.goodsDesc.goodsDescPic          //商品描述照片
+											},
+											"getInfo": {                                    //领取信息
+												"getInfoTitle": res.getInfo.getInfoTitle,           //领取信息标题
+												"getInfoDetail": res.getInfo.getInfoDetail
+											},
+											"sellerInfo": {                     //商家介绍
+												"title": res.sellerInfo.title,          //商家介绍标题
+												"sellerInfoDetail": res.sellerInfo.sellerInfoDetail
+											},
+											"infoCollect": res.infoCollect,
+											"addressInfo": res.addressInfo,
+											"themedata": res.themeInfo
+										}
+									}
+								} else {
+									if (res.payType == 0) {
+										payType = 0;
+										data_prams = {
+											"headImg": res.headImg,
+											"headImgType": res.headImgType,
+											"title": res.title,
+											"startDate": '',
+											"goodsNum": res.goodsNum,
+											"originalPrice": res.originalPrice,
+											"contactPhone": res.contactPhone,
+											"secKillTime": res.secKillTime,
+											"activityType": res.activityType,
+											"teamType": res.teamType,
+											"payType": res.payType,
+											"headImgType":res.headImgType,
+											"prepayPrice": res.prepayPrice,
+											"successPrice": res.successPrice,
+											"needBargin": res.needBargin,
+											"oneselfBarginTime": res.oneselfBarginTime,
+											"themeId": res.themeId,
+											"activityRules": res.activityRules,
+											"enrollBenefit": res.enrollBenefit,
+											/*************刘亚 -- 音乐和特效（保存到session）***************/
+											"animation": res.animation,
+											"music": res.music,
+											/******************************/
+											"couponInfo": res.couponInfo, // 优惠券信息//<!--coupon-->
+											"goodsDesc": {                   //商品描述
+												"goodsDescInfo": res.goodsDesc.goodsDescInfo,
+												"goodsDescPic": res.goodsDesc.goodsDescPic          //商品描述照片
+											},
+											"getInfo": {                                    //领取信息
+												"getInfoTitle": res.getInfo.getInfoTitle,           //领取信息标题
+												"getInfoDetail": res.getInfo.getInfoDetail
+											},
+											"sellerInfo": {                     //商家介绍
+												"title": res.sellerInfo.title,          //商家介绍标题
+												"sellerInfoDetail": res.sellerInfo.sellerInfoDetail
+											},
+											"infoCollect": res.infoCollect,
+											"addressInfo": res.addressInfo,
+											"themedata": res.themeInfo
+										}
+									} else {
+										payType = 1;
+										data_prams = {
+											"headImg": res.headImg,
+											"headImgType": res.headImgType,
+											"title": res.title,
+											"startDate": '',
+											"goodsNum": res.goodsNum,
+											"originalPrice": res.originalPrice,
+											"contactPhone": res.contactPhone,
+											"secKillTime": res.secKillTime,
+											"activityType": res.activityType,
+											"teamType": res.teamType,
+											"payType": res.payType,
+											"headImgType":res.headImgType,
+											"prepayPrice": res.prepayPrice,
+											"successPrice": res.successPrice,
+											"needBargin": res.needBargin,
+											"oneselfBarginTime": res.oneselfBarginTime,
+											"themeId": res.themeId,
+											"activityRules": res.activityRules,
+											"enrollBenefit": res.enrollBenefit,
+											/*************刘亚 -- 音乐和特效（保存到session）***************/
+											"animation": res.animation,
+											"music": res.music,
+											/******************************/
+											"couponInfo": res.couponInfo, // 优惠券信息//<!--coupon-->
+											"goodsDesc": {                   //商品描述
+												"goodsDescInfo": res.goodsDesc.goodsDescInfo,
+												"goodsDescPic": res.goodsDesc.goodsDescPic          //商品描述照片
+											},
+											"getInfo": {                                    //领取信息
+												"getInfoTitle": res.getInfo.getInfoTitle,           //领取信息标题
+												"getInfoDetail": res.getInfo.getInfoDetail
+											},
+											"sellerInfo": {                     //商家介绍
+												"title": res.sellerInfo.title,          //商家介绍标题
+												"sellerInfoDetail": res.sellerInfo.sellerInfoDetail
+											},
+											"infoCollect": res.infoCollect,
+											"addressInfo": res.addressInfo,
+											"themedata": res.themeInfo
+										}
+									}
+								}
+								sessionStorage.setItem('ms_preview_theme', '');
+								PreviewBackToEdit(JSON.stringify(data_prams));
+							}
+						}
+					});
+
+					/**********************************************************************************/
+					/**
+					* 动效 和音乐 -- 刘亚
+					**/
+
+					// 动效选择
+					AnimatePicker.init(function (dataUrl) {
+						mySnow.closeGift(); // 清楚历史动效
+						var animateData = dataUrl;
+						if (animateData == '') {
+							return
+						} else {
+							var animateImgs = animateData.split(',');
+							mySnow.GiftList = animateImgs;
+							mySnow.initBySpeed();
+						}
+					});
+					// 音乐选择
+					MusicPicker.init(function (dataUrl) {
+						myBgMusic.pause();
+						var musicData = dataUrl;
+						myBgMusic.src = musicData;
+						if (musicData == '') {
+							myBgMusic.pause();
+							return
+						} else {
+							myBgMusic.src = musicData;
+							myBgMusic.play();
+						}
+					});
+					/**********************************************************************************/
+					return false;
+				}
+			} else {
+				if (sessionStorage.getItem(getUrlParam('activityId')) != null) {
+
+					PreviewBackToEdit(sessionStorage.getItem(getUrlParam('activityId')));
+				} else {
+					var activityId = getUrlParam('activityId');
+					var data_prams = {
+						"activityId": activityId
+					};
+					$.ajax({
+						type: "post",
+						async: false,
+						url: globalUrl + "/seller/showMsActivity.htm",
+						data: 'params={"data":' + JSON.stringify(data_prams) + '}' + isDebug,
+						success: function (data) {
+							var datas = JSON.parse(data);
+							var res = datas.result.data;
+							console.log(res);
+							for (var i = 0; i < $('.banner_mb_tab>div>ul>li').length; i++) {
+								if ($('.banner_mb_tab>div>ul>li').eq(i).attr('data-index') == res.themeInfo.themeId) {
+									$('.banner_mb_tab>div>ul>li').eq(i).addClass('banner_mb_tab_img_active');
+									$('.banner_mb_tab_qx').attr('data', JSON.stringify(res.themeInfo.themedata));
+									$('.banner_mb_tab_clk').attr('data-typeid', res.themeInfo.themeTypeId);
+								}
+							}
+							headImgType = res.headImgType;
+							if (res.headImg == '') {
+								$('#active_kj_banner').prop('src', res.themeInfo.headImgUrl);
+							}
+							if (res.enrollNum != 0) {
+								bm_state = false;
+								$('#ms_yj').attr('disabled', 'disabled');
+								old_endtime = res.startDate;
+								old_goodnum = Number(res.goodsNum);
+								$('.jl_content_add_lis').find('.successPrice').attr('disabled', 'disabled');
+								$('.jl_content_add_lis').find('.num').attr('disabled', 'disabled');
+								$('#ms_content_textarea').attr('disabled', 'disabled');
+								$('#ms_msj').attr('disabled', 'disabled');
+								$('#ms_xkj').attr('disabled', 'disabled');
+								$('#kj_jg').attr('disabled', 'disabled');
+								$('#ms_fs').attr('disabled', 'disabled');
+							};
+							var dates = res.startDate;
+							dates = dates.substring(0, 19);
+							dates = dates.replace(/-/g, '/');
+							var activity_start_time = new Date(dates).getTime() / 1000;
+							var timestamp_end_time = parseInt(new Date().getTime() / 1000);
+							if (activity_start_time <= timestamp_end_time) {
+								ms_edit_state = false;
+								$('#ms_xs').attr('disabled', 'disabled');
+							}
+							if (res.activityType == 81) {
+								if (res.payType == 0) {
+									payType = 0;
+									data_prams = {
+										"headImg": res.headImg,
+										"headImgType": res.headImgType,
+										"title": res.title,
+										"startDate": res.startDate,
+										"goodsNum": res.goodsNum,
+										"originalPrice": res.originalPrice,
+										"contactPhone": res.contactPhone,
+										"secKillTime": res.secKillTime,
+										"activityType": res.activityType,
+										"teamType": res.teamType,
+										"payType": res.payType,
+										"headImgType":res.headImgType,
+										"prepayPrice": res.prepayPrice,
+										"successPrice": res.successPrice,
+										"needBargin": res.needBargin,
+										"oneselfBarginTime": res.oneselfBarginTime,
+										"themeId": res.themeId,
+										"activityRules": res.activityRules,
+										"enrollBenefit": res.enrollBenefit,
+										/*************刘亚 -- 音乐和特效（保存到session）***************/
+										"animation": res.animation,
+										"music": res.music,
+										/******************************/
+										"couponInfo": res.couponInfo, // 优惠券信息//<!--coupon-->
+										"goodsDesc": {                   //商品描述
+											"goodsDescInfo": res.goodsDesc.goodsDescInfo,
+											"goodsDescPic": res.goodsDesc.goodsDescPic          //商品描述照片
+										},
+										"getInfo": {                                    //领取信息
+											"getInfoTitle": res.getInfo.getInfoTitle,           //领取信息标题
+											"getInfoDetail": res.getInfo.getInfoDetail
+										},
+										"sellerInfo": {                     //商家介绍
+											"title": res.sellerInfo.title,          //商家介绍标题
+											"sellerInfoDetail": res.sellerInfo.sellerInfoDetail
+										},
+										"infoCollect": res.infoCollect,
+										"addressInfo": res.addressInfo,
+										"themedata": res.themeInfo
+									}
+								} else {
+									payType = 1;
+									data_prams = {
+										"headImg": res.headImg,
+										"headImgType": res.headImgType,
+										"title": res.title,
+										"startDate": res.startDate,
+										"goodsNum": res.goodsNum,
+										"originalPrice": res.originalPrice,
+										"contactPhone": res.contactPhone,
+										"secKillTime": res.secKillTime,
+										"activityType": res.activityType,
+										"teamType": res.teamType,
+										"headImgType":res.headImgType,
+										"payType": res.payType,
+										"prepayPrice": res.prepayPrice,
+										"successPrice": res.successPrice,
+										"needBargin": res.needBargin,
+										"oneselfBarginTime": res.oneselfBarginTime,
+										"themeId": res.themeId,
+										"activityRules": res.activityRules,
+										"enrollBenefit": res.enrollBenefit,
+										/*************刘亚 -- 音乐和特效（保存到session）***************/
+										"animation": res.animation,
+										"music": res.music,
+										/******************************/
+										"couponInfo": res.couponInfo, // 优惠券信息//<!--coupon-->
+										"goodsDesc": {                   //商品描述
+											"goodsDescInfo": res.goodsDesc.goodsDescInfo,
+											"goodsDescPic": res.goodsDesc.goodsDescPic          //商品描述照片
+										},
+										"getInfo": {                                    //领取信息
+											"getInfoTitle": res.getInfo.getInfoTitle,           //领取信息标题
+											"getInfoDetail": res.getInfo.getInfoDetail
+										},
+										"sellerInfo": {                     //商家介绍
+											"title": res.sellerInfo.title,          //商家介绍标题
+											"sellerInfoDetail": res.sellerInfo.sellerInfoDetail
+										},
+										"infoCollect": res.infoCollect,
+										"addressInfo": res.addressInfo,
+										"themedata": res.themeInfo
+									}
+								}
+							} else {
+								if (res.payType == 0) {
+									payType = 0;
+									data_prams = {
+										"headImg": res.headImg,
+										"headImgType": res.headImgType,
+										"title": res.title,
+										"startDate": res.startDate,
+										"goodsNum": res.goodsNum,
+										"originalPrice": res.originalPrice,
+										"contactPhone": res.contactPhone,
+										"secKillTime": res.secKillTime,
+										"activityType": res.activityType,
+										"teamType": res.teamType,
+										"headImgType":res.headImgType,
+										"payType": res.payType,
+										"prepayPrice": needPriceRules,
+										"successPrice": res.successPrice,
+										"needBargin": res.needBargin,
+										"oneselfBarginTime": res.oneselfBarginTime,
+										"themeId": res.themeId,
+										"activityRules": res.activityRules,
+										"enrollBenefit": res.enrollBenefit,
+										/*************刘亚 -- 音乐和特效（保存到session）***************/
+										"animation": res.animation,
+										"music": res.music,
+										/******************************/
+										"couponInfo": res.couponInfo, // 优惠券信息//<!--coupon-->
+										"goodsDesc": {                   //商品描述
+											"goodsDescInfo": res.goodsDesc.goodsDescInfo,
+											"goodsDescPic": res.goodsDesc.goodsDescPic          //商品描述照片
+										},
+										"getInfo": {                                    //领取信息
+											"getInfoTitle": res.getInfo.getInfoTitle,           //领取信息标题
+											"getInfoDetail": res.getInfo.getInfoDetail
+										},
+										"sellerInfo": {                     //商家介绍
+											"title": res.sellerInfo.title,          //商家介绍标题
+											"sellerInfoDetail": res.sellerInfo.sellerInfoDetail
+										},
+										"infoCollect": res.infoCollect,
+										"addressInfo": res.addressInfo,
+										"themedata": res.themeInfo
+									}
+								} else {
+									payType = 1;
+									data_prams = {
+										"headImg": res.headImg,
+										"headImgType": res.headImgType,
+										"title": res.title,
+										"startDate": res.startDate,
+										"goodsNum": res.goodsNum,
+										"originalPrice": res.originalPrice,
+										"contactPhone": res.contactPhone,
+										"secKillTime": res.secKillTime,
+										"activityType": res.activityType,
+										"headImgType":res.headImgType,
+										"teamType": res.teamType,
+										"payType": res.payType,
+										"prepayPrice": res.prepayPrice,
+										"successPrice": res.successPrice,
+										"needBargin": res.needBargin,
+										"oneselfBarginTime": res.oneselfBarginTime,
+										"themeId": res.themeId,
+										"activityRules": res.activityRules,
+										"enrollBenefit": res.enrollBenefit,
+										/*************刘亚 -- 音乐和特效（保存到session）***************/
+										"animation": res.animation,
+										"music": res.music,
+										/******************************/
+										"couponInfo": res.couponInfo, // 优惠券信息//<!--coupon-->
+										"goodsDesc": {                   //商品描述
+											"goodsDescInfo": res.goodsDesc.goodsDescInfo,
+											"goodsDescPic": res.goodsDesc.goodsDescPic          //商品描述照片
+										},
+										"getInfo": {                                    //领取信息
+											"getInfoTitle": res.getInfo.getInfoTitle,           //领取信息标题
+											"getInfoDetail": res.getInfo.getInfoDetail
+										},
+										"sellerInfo": {                     //商家介绍
+											"title": res.sellerInfo.title,          //商家介绍标题
+											"sellerInfoDetail": res.sellerInfo.sellerInfoDetail
+										},
+										"infoCollect": res.infoCollect,
+										"addressInfo": res.addressInfo,
+										"themedata": res.themeInfo
+									}
+								}
+							}
+							sessionStorage.setItem('ms_preview_theme', '');
+							PreviewBackToEdit(JSON.stringify(data_prams));
+						}
+					});
+				};
+			};
+		};
+		To_Top();
+		ColseWxBotton();
+
+		// 控制地址的关闭按钮
+		if ($('#consultation_addAds').text() == '') {
+			$('.edit_pos_icon').hide();
+		} else {
+			$('.edit_pos_icon').show();
+		}
+
+		/**********************************************************************************/
+		/**
+		* 动效 和音乐 -- 刘亚
+		**/
+
+		// 动效选择
+		AnimatePicker.init(function (dataUrl) {
+			mySnow.closeGift(); // 清楚历史动效
+			var animateData = dataUrl;
+			if (animateData == '') {
+				return
+			} else {
+				var animateImgs = animateData.split(',');
+				mySnow.GiftList = animateImgs;
+				mySnow.initBySpeed();
+			}
+		});
+		// 音乐选择
+		MusicPicker.init(function (dataUrl) {
+			myBgMusic.pause();
+			var musicData = dataUrl;
+			myBgMusic.src = musicData;
+			if (musicData == '') {
+				myBgMusic.pause();
+				return
+			} else {
+				myBgMusic.src = musicData;
+				myBgMusic.play();
+			}
+		});
+		/**********************************************************************************/
+	});
+	/***
+	 * liuya - 优惠券添加到活动
+	 * ***/
+	var thisCoupon = new Coupon(); // 初始化优惠券创建组件对象
+	var thisTextMark = new TextMark(); // 初始化编辑组件对象
+	var thisBScroll = new BScroll('.coupon-Pop_container', {
+		scrollY: false,
+		scrollX: true,
+		click: true,
+	});
+
+	getAbleCouponList(1, 50); // 首次进入页面默认展示期限中的优惠券的前十条
+
+	$(function () {
+		thisTextMark.isHandleShow('.textMark-item');
+		// 添加文本
+		$('#addConponText').click(function () {
+			if ($('.textMarkIndex').length >= 6) {
+				warns('最多添加6条');
+				return;
+			}
+			thisTextMark.addTextMark('.textMark');
+		});
+		// 添加优惠券
+		$('#addConponImg').click(function () {
+			if ($('.textMarkCoupon').length >= 6) {
+				warns('最多添加6条')
+				return;
+			}
+			$('.layer_bj').show();
+			$('.coupon-Pop_select').show().addClass('slideInUp');
+			thisBScroll.refresh();
+		});
+		// 选中标识
+		$('.coupon-Pop_scroll').on('click', '.couponItem', function () {
+			$(this).find('.coupon-select').toggleClass('couponSelected');
+		})
+		// 取消
+		$('#couponChanel').click(function () {
+			$('.coupon-select').removeClass('couponSelected');
+			$('.layer_bj').hide();
+			$('.coupon-Pop_select').hide().removeClass('slideInUp');
+		});
+		// 确定
+		$('#couponSure').click(function () {
+			var _num = parseInt($('.couponSelected').length) + parseInt($('.textMarkCoupon').length);
+			if (_num > 6) {
+				warns('最多添加6条')
+				return;
+			}
+			$('.couponSelected').each(function (index, el) {
+				thisTextMark.addCouponMark('.textMark');
+				$(el).removeClass('couponSelected').parents('.couponItem').clone(true).appendTo('.nowAddCoupon>.textMark_coupon');
+			})
+			$('.layer_bj').hide();
+			$('.coupon-Pop_select').hide().removeClass('slideInUp');
+		});
+		// 向上向下删除的操作
+		$('.textMark').on('click', '.tHandleBottom', function () {
+			var changeObj = $(this).parents('.textMark-item');
+			thisTextMark.goBottom(changeObj);
+		})
+		$('.textMark').on('click', '.tHandleTop', function () {
+			var changeObj = $(this).parents('.textMark-item');
+			thisTextMark.goTop(changeObj);
+		})
+		$('.textMark').on('click', '.tHandleDel', function () {
+			var changeObj = $(this).parents('.textMark-item');
+			thisTextMark.delMark(this);
+		})
+		// 输入字数限制
+		$('.textMark').on('input', '.textMark_input', function () {
+			var valLen = $(this).text().length;
+			if (valLen > 50) {
+				$(this).text($(this).text().slice(0, 49)); // 多余五十个字的时候，截取前五十个字
+			}
+		})
+	});
+	
+	
+</script>
+
+<div class="picker">
+  <div class="picker-mask mask-hook"></div>
+  <div class="picker-panel panel-hook">
+    <div class="picker-choose choose-hook">
+      <span class="cancel cancel-hook">取消</span>
+      <span class="confirm confirm-hook">确定</span>
+      <h1 class="picker-title">背景动效</h1>
+    </div>
+    <div class="picker-content">
+      <div class="mask-top border-1px"></div>
+      <div class="mask-bottom border-1px"></div>
+      <div class="wheel-wrapper wheel-wrapper-hook">
+        
+          <div class="wheel wheel-hook">
+            <ul class="wheel-scroll wheel-scroll-hook">
+              
+                <li class="wheel-item" data-val="">无</li>
+              
+                <li class="wheel-item" data-val="">促销</li>
+              
+                <li class="wheel-item" data-val="">节庆</li>
+              
+                <li class="wheel-item" data-val="">自然</li>
+              
+                <li class="wheel-item" data-val="">图案</li>
+              
+            </ul>
+          </div>
+        
+          <div class="wheel wheel-hook">
+            <ul class="wheel-scroll wheel-scroll-hook">
+              
+                <li class="wheel-item" data-val="[object Object]">无背景动效</li>
+              
+            </ul>
+          </div>
+        
+      </div>
+    </div>
+    <div class="picker-footer footer-hook"></div>
+  </div>
+</div><div class="picker">
+  <div class="picker-mask mask-hook"></div>
+  <div class="picker-panel panel-hook">
+    <div class="picker-choose choose-hook">
+      <span class="cancel cancel-hook">取消</span>
+      <span class="confirm confirm-hook">确定</span>
+      <h1 class="picker-title">背景音效</h1>
+    </div>
+    <div class="picker-content">
+      <div class="mask-top border-1px"></div>
+      <div class="mask-bottom border-1px"></div>
+      <div class="wheel-wrapper wheel-wrapper-hook">
+        
+          <div class="wheel wheel-hook">
+            <ul class="wheel-scroll wheel-scroll-hook">
+              
+                <li class="wheel-item" data-val="">无</li>
+              
+                <li class="wheel-item" data-val="">轻音乐</li>
+              
+                <li class="wheel-item" data-val="">童歌</li>
+              
+                <li class="wheel-item" data-val="">抖音</li>
+              
+                <li class="wheel-item" data-val="">欧美</li>
+              
+                <li class="wheel-item" data-val="">节日</li>
+              
+                <li class="wheel-item" data-val="">流行</li>
+              
+            </ul>
+          </div>
+        
+          <div class="wheel wheel-hook">
+            <ul class="wheel-scroll wheel-scroll-hook">
+              
+                <li class="wheel-item" data-val="[object Object]">无背景音效</li>
+              
+            </ul>
+          </div>
+        
+      </div>
+    </div>
+    <div class="picker-footer footer-hook"></div>
+  </div>
+</div></body><style>html{font-size:48px !important;}</style></html>

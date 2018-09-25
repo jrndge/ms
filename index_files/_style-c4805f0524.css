@@ -1,0 +1,83 @@
+#leafContainer{
+    overflow-x: hidden;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+}
+#leafContainer > .dropItem 
+{
+    position: fixed;
+    width: 30px;
+    height: 30px;
+    z-index: 1;
+ 
+    -webkit-animation-iteration-count: infinite, 1;  
+            animation-iteration-count: infinite, 1;
+    -webkit-animation-direction: normal, normal;
+            animation-direction: normal, normal;
+    -webkit-animation-timing-function: linear, linear;
+            animation-timing-function: linear, linear;
+}
+#leafContainer > .dropItem > img {
+     position: absolute;
+     width: 100%;
+     height: auto;
+
+     -webkit-animation-iteration-count: infinite;
+
+             animation-iteration-count: infinite;
+     -webkit-animation-direction: alternate;
+             animation-direction: alternate;
+     -webkit-animation-timing-function: ease-in-out;
+             animation-timing-function: ease-in-out;
+     -webkit-transform-origin: 50% -100%;
+             transform-origin: 50% -100%;
+}
+
+
+/* css3动画 */
+@-webkit-keyframes fade
+{
+    0%   { opacity: 0.9; }
+    95%  { opacity: 0.9; }
+    100% { opacity: 0; }
+}
+@keyframes fade
+{
+    0%   { opacity: 0.9; }
+    95%  { opacity: 0.9; }
+    100% { opacity: 0; }
+}
+
+
+@-webkit-keyframes drop
+{
+    0%   { -webkit-transform: translate(0px, -50px); }
+    100% { -webkit-transform: translate(0px, 650px); }
+}
+@keyframes drop
+{
+    0%   { -webkit-transform: translate(0px, -50px); }
+    100% { -webkit-transform: translate(0px, 650px); }
+}
+
+@-webkit-keyframes clockwiseSpin
+{
+    0%   { -webkit-transform: rotate(-80deg); }
+    100% { -webkit-transform: rotate(80deg); }
+}
+@keyframes clockwiseSpin
+{
+    0%   { -webkit-transform: rotate(-80deg); }
+    100% { -webkit-transform: rotate(80deg); }
+}
+
+@-webkit-keyframes counterclockwiseSpinAndFlip 
+{
+    0%   { -webkit-transform: scale(-1, 1) rotate(80deg); }
+    100% { -webkit-transform: scale(-1, 1) rotate(-80deg); }
+}
+@keyframes counterclockwiseSpinAndFlip 
+{
+    0%   { -webkit-transform: scale(-1, 1) rotate(80deg); }
+    100% { -webkit-transform: scale(-1, 1) rotate(-80deg); }
+}
